@@ -3,7 +3,7 @@
   <title>Mr PJ Evans</title>
   <link href="https://mrpjevans.com/feed/feed.xml" rel="self"/>
   <link href="https://mrpjevans.com/"/>
-  <updated>2024-02-11T16:01:38Z</updated>
+  <updated>2024-02-11T17:38:22Z</updated>
   <id>https://mrpjevans.com/</id>
   <author>
     <name>PJ Evans</name>
@@ -11,9 +11,9 @@
   
   <entry>
     <title>Whatever</title>
-    <link href="https://mrpjevans.com/whatever"/>
+    <link href="https://mrpjevans.com/whatever/"/>
     <updated>2024-02-09T09:26:57Z</updated>
-    <id>https://mrpjevans.com/whatever</id>
+    <id>https://mrpjevans.com/whatever/</id>
     <content type="html">&lt;img alt=&quot;Unisex toilet sign reading &#39;Whatever, just wash your hands&#39;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://mrpjevans.com/img/2024-02/whatever-640w.jpeg&quot; width=&quot;768&quot; height=&quot;731&quot; srcset=&quot;https://mrpjevans.com/img/2024-02/whatever-640w.jpeg 640w, https://mrpjevans.com/img/2024-02/whatever-768w.jpeg 768w&quot; sizes=&quot;(min-width: 30em) 50vw, 100vw&quot; /&gt;
 &lt;p&gt;Spotted at Smokeworks in Cambridge, UK&lt;/p&gt;
 </content>
@@ -21,9 +21,9 @@
   
   <entry>
     <title>What&#39;s The (Decimal) Point?</title>
-    <link href="https://mrpjevans.com/whats-the-point"/>
+    <link href="https://mrpjevans.com/whats-the-point/"/>
     <updated>2024-02-05T14:59:52Z</updated>
-    <id>https://mrpjevans.com/whats-the-point</id>
+    <id>https://mrpjevans.com/whats-the-point/</id>
     <content type="html">&lt;img alt=&quot;A very big reel&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://mrpjevans.com/img/2024-02/whats-the-point-640w.jpeg&quot; width=&quot;1024&quot; height=&quot;1024&quot; srcset=&quot;https://mrpjevans.com/img/2024-02/whats-the-point-640w.jpeg 640w, https://mrpjevans.com/img/2024-02/whats-the-point-768w.jpeg 768w, https://mrpjevans.com/img/2024-02/whats-the-point-1024w.jpeg 1024w&quot; sizes=&quot;(min-width: 30em) 50vw, 100vw&quot; /&gt;
 &lt;p&gt;&lt;em&gt;A cautionary tale of a bug that wasn’t (yet was)&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;I’m currently working with a team helping an industrial textile manufacturer based in Lyon, France. Part of the job is working with a CSV file (isn’t it always) and translating the data into JSON so it’s usable by Elasticsearch. All has been going well until the other day when our P.O. found something weird.&lt;/p&gt;
