@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="The personal blog of PJ Evans">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Coustard&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous">
+
+    <link href="/src/css/mrpjevans.css" rel="stylesheet" />
+
+		<link rel="icon" 
+      type="image/png" 
+      href="./favicon.png">
+
+    <title>Mr PJ Evans | What's The (Decimal) Point?</title>
+  </head>
+  <body data-bs-theme="dark">
+
+    <div class="container">
+      <div class="row justify-content-md-center">
+        <div class="col-md-8 col-sm-12 col-lg-6">
+
+          <nav class="navbar bg-dark navbar-expand-lg border-bottom border-body" data-bs-theme="dark">
+            <div class="container-fluid">
+              <a class="navbar-brand logo" href="/">Mr PJ Evans</a>
+							<div>
+								<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+									<span class="navbar-toggler-icon"></span>
+								</button>
+								<div class="collapse navbar-collapse" id="navbarText">
+									<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+										<li class="nav-item">
+										<a class="nav-link " href="/tags">Tags</a>
+										</li>
+										<li class="nav-item">
+<a class="nav-link " href="/about">About</a>
+										</li>
+									</ul>
+								</div>	
+							</div>
+            </div>
+          </nav>
+
+          
+<h1 class="h1-with-date">What's The (Decimal) Point?</h1>
+
+<p class="meta-date text-center">05 Feb 2024</p>
+
+<img alt="A very big reel" loading="lazy" decoding="async" src="/img/2024-02/whats-the-point-640w.jpeg" width="1024" height="1024" srcset="/img/2024-02/whats-the-point-640w.jpeg 640w, /img/2024-02/whats-the-point-768w.jpeg 768w, /img/2024-02/whats-the-point-1024w.jpeg 1024w" sizes="(min-width: 30em) 50vw, 100vw">
+<p><em>A cautionary tale of a bug that wasn’t (yet was)</em></p>
+<p>I’m currently working with a team helping an industrial textile manufacturer based in Lyon, France. Part of the job is working with a CSV file (isn’t it always) and translating the data into JSON so it’s usable by Elasticsearch. All has been going well until the other day when our P.O. found something weird.</p>
+<p>The CSV in question is a list of material rolls material that are currently in the warehouse. We convert the data so it is rendered on a rather lovely website (you can tell I didn’t design it) so it can be easily searched. Common to every roll are attributes like type, colour, width and length. Today it was the width that had us scratching our heads.</p>
+<p>Up to now we had been happily displaying the width in meters, yet a latest export from their systems, a roll had turned up that was 900 meters wide. Now, I can’t say I know much about the textile industry but even I was struggling with the fact that somewhere in the warehouse was lurking a roll of material NEARLY ONE KILOMETER WIDE. That surely would cause issues, or collapse into a black hole of some kind.</p>
+<p>&quot;Of course&quot;, I said, &quot;it’s a data error. I’ll have a look at import file.&quot;</p>
+<p>Sure enough, I found the roll in question and it stated 900 meters. &quot;Ha! Someone’s goofed&quot; I thought, not quite realising at this point that someone had indeed goofed, and that person was me.</p>
+<p>I looked at the other rolls in the file. All were the normal one to three meters in width. Some were 1.200, other 2.300 and so on. So, I reasoned, it was more likely that this roll was maybe 900 millimetres rather than the distance of a recommended daily walk. If that’s the case why on earth are the others in meters?</p>
+<p>Of course, they were not.</p>
+<p>This particular <em>rosbif</em> had completely forgotten that is perfectly normal in France and other countries to use ‘.’ as the thousands separator and ‘,’ as the decimal point. All the widths were in millimetres. However, and here’s the kicker, as most were one to three meters, the data had been correct all this time by accident, as we took the period to be the decimal point, which is right if you want to divide by one thousand. Only when something less than a thousand showed up did the bug manifest. A quick line of sanitising code to remove the period and treat everything as millimetres and our 900 meter frankenroll was shrunk down to size.</p>
+<p>The moral of this story is, when working with ‘punctuated’ numbers, be always sure to ask someone “What’s the (decimal) point?”.</p>
+
+
+<div class="row">
+  <div class="col-12 mb-3">
+    
+      <a href="/tags/dev" class="badge rounded-pill text-bg-primary">dev</a>
+    
+  </div>
+</div>
+<p class="backlink">
+  <a href="/">Home</a>
+</p>
+
+        </div>
+
+        <div class="row justify-content-md-center p-0">
+          <div class="col-md-8 col-sm-12 col-lg-6 footer">
+            <hr>
+
+            <div xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">
+
+						
+              <a
+                href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1"
+                target="_blank"
+                rel="license noopener noreferrer"
+                >
+                <span class="cc">
+                  <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="CC">
+                  <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt="BY">
+                  <img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt="NC">
+                  <img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt="SA">
+                </span>
+              </a>
+            </p>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </body>
+</html>

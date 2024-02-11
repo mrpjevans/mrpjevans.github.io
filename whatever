@@ -27,7 +27,7 @@
       type="image/png" 
       href="./favicon.png">
 
-    <title>Mr PJ Evans | Home</title>
+    <title>Mr PJ Evans | Whatever</title>
   </head>
   <body data-bs-theme="dark">
 
@@ -57,77 +57,24 @@
           </nav>
 
           
-<div>
-    <div class="row index-item">
+<h1 class="h1-with-date">Whatever</h1>
 
-  <div class="col-md-1 post-type">
-    <svg
-  xmlns="http://www.w3.org/2000/svg"
-  fill="currentColor"
-  class="bi bi-image"
-  viewBox="0 0 16 16">
-  <path d="M6.002 5.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0" />
-  <path d="M2.002 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm12 1a1 1 0 0 1 1 1v6.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12V3a1 1 0 0 1 1-1z" />
-</svg>
-  </div>
+<p class="meta-date text-center">09 Feb 2024</p>
 
-  <div class="col-md-11">
+<img alt="Unisex toilet sign reading 'Whatever, just wash your hands'" loading="lazy" decoding="async" src="/img/2024-02/whatever-640w.jpeg" width="768" height="731" srcset="/img/2024-02/whatever-640w.jpeg 640w, /img/2024-02/whatever-768w.jpeg 768w" sizes="(min-width: 30em) 50vw, 100vw">
+<p>Spotted at Smokeworks in Cambridge, UK</p>
+
+
+<div class="row">
+  <div class="col-12 mb-3">
     
-    <a href="/whatever">
-      <img alt="Unisex toilet sign reading 'Whatever, just wash your hands'" loading="lazy" decoding="async" src="/img/2024-02/whatever-640w.jpeg" width="768" height="731" srcset="/img/2024-02/whatever-640w.jpeg 640w, /img/2024-02/whatever-768w.jpeg 768w" sizes="(min-width: 30em) 50vw, 100vw">
-    </a>
-
-    <a href="/whatever">Whatever</a>
-    <span class="meta-date">09 Feb 2024</span>
-    <p>
-Spotted at Smokeworks in Cambridge, UK
-<br/>
-      
-        <a href="/tags/nice" class="badge rounded-pill text-bg-primary">nice</a>
-      
-    </p>
+      <a href="/tags/nice" class="badge rounded-pill text-bg-primary">nice</a>
+    
   </div>
-
 </div>
-  
-    <div class="row index-item">
-
-  <div class="col-md-1 post-type">
-    <svg
-	xmlns="http://www.w3.org/2000/svg"
-	fill="currentColor"
-	class="bi bi-pen"
-	viewBox="0 0 16 16">
-	<title>Blog post</title>
-	<path d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001m-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708z" />
-</svg>
-  </div>
-
-  
-    <div class="col-md-5">
-      
-      <img alt="A very big reel" loading="lazy" decoding="async" src="/img/2024-02/whats-the-point-640w.jpeg" width="1024" height="1024" srcset="/img/2024-02/whats-the-point-640w.jpeg 640w, /img/2024-02/whats-the-point-768w.jpeg 768w, /img/2024-02/whats-the-point-1024w.jpeg 1024w" sizes="(min-width: 30em) 50vw, 100vw">
-    </div>
-  
-
-  <div class="col-md-6">
-    <a href="/whats-the-point">What's The (Decimal) Point?</a>
-    <p class="meta-date">05 Feb 2024</p>
-    <p>
-A cautionary tale of a bug that wasn’t (yet was)
-I’m currently working with a team helping an industrial textile manufacturer based in Lyon, France. Part of the job is working with a CSV file (isn...</p>
-    <p>
-      
-        <a href="/tags/dev" class="badge rounded-pill text-bg-primary">dev</a>
-      
-    </p>
-  </div>
-
-</div>
-
-
-
-</div>
+<p class="backlink">
+  <a href="/">Home</a>
+</p>
 
         </div>
 
