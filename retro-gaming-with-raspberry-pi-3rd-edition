@@ -27,7 +27,7 @@
       type="image/png" 
       href="./favicon.png">
 
-    <title>Mr PJ Evans | Tags</title>
+    <title>Mr PJ Evans | Retro Gaming With Raspberry Pi 3rd Edition</title>
   </head>
   <body data-bs-theme="dark">
 
@@ -42,7 +42,7 @@
 								<div>
 									<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 										<li class="nav-item">
-										<a class="nav-link active" href="/tags">Tags</a>
+										<a class="nav-link " href="/tags">Tags</a>
 										</li>
 										<li class="nav-item">
 											<a class="nav-link " href="/about">About</a>
@@ -54,29 +54,24 @@
           </nav>
 
           
-<h1>Tags</h1>
+<h1 class="h1-with-date">Retro Gaming With Raspberry Pi 3rd Edition</h1>
+
+<p class="meta-date text-center">12 Feb 2024</p>
+
+<img alt="A shelf showing copies of Retro Gaming for Raspberry Pi and The MagPi" loading="lazy" decoding="async" src="/img/2024-02/retro-gaming-with-raspberry-pi-3rd-edition-640w.jpeg" width="1024" height="768" srcset="/img/2024-02/retro-gaming-with-raspberry-pi-3rd-edition-640w.jpeg 640w, /img/2024-02/retro-gaming-with-raspberry-pi-3rd-edition-768w.jpeg 768w, /img/2024-02/retro-gaming-with-raspberry-pi-3rd-edition-1024w.jpeg 1024w" sizes="(min-width: 30em) 50vw, 100vw">
+<p>Just out is the third edition of Retro Gaming With Raspberry Pi. This 170+ page tome tell you everything you need to know about bringing the old games back to life. There's so much more than 'download this emulator'. You can learn about the homebrew scene, how to modify and augmenting existing hardware and even build your own classic arcade cabinet.</p>
+<p>Most text comes from the great KG Orphanides but a few of us others managed to get a word or two in as well. You'll find my pieces on cloud gaming and turning a Pi Zero into a digital tape deck for the ZX Spectrum.</p>
+<p>£14 and available now from the link below.</p>
+<p><a href="https://store.rpipress.cc/collections/latest-releases/products/retro-gaming-with-raspberry-pi-3rd-edition">Retro Gaming With Raspberry Pi</a></p>
+
 
 <div class="row">
-  <div class="col mb-3">
+  <div class="col-12 mb-3">
     
-      <a class="btn btn-primary me-2" href="/tags/RaspberryPi">
-        RaspberryPi&nbsp;
-        <span class="badge text-bg-secondary">1</span>
-      </a>
-    
-      <a class="btn btn-primary me-2" href="/tags/dev">
-        dev&nbsp;
-        <span class="badge text-bg-secondary">1</span>
-      </a>
-    
-      <a class="btn btn-primary me-2" href="/tags/nice">
-        nice&nbsp;
-        <span class="badge text-bg-secondary">1</span>
-      </a>
+      <a href="/tags/RaspberryPi" class="badge rounded-pill text-bg-primary">RaspberryPi</a>
     
   </div>
 </div>
-
 <p class="backlink">
   <a href="/">Home</a>
 </p>
