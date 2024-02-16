@@ -3,11 +3,21 @@
   <title>Mr PJ Evans</title>
   <link href="https://mrpjevans.com/feed/feed.xml" rel="self"/>
   <link href="https://mrpjevans.com/"/>
-  <updated>2024-02-13T12:06:08Z</updated>
+  <updated>2024-02-16T17:42:35Z</updated>
   <id>https://mrpjevans.com/</id>
   <author>
     <name>PJ Evans</name>
   </author>
+  
+  <entry>
+    <title>Much secure very secrets</title>
+    <link href="https://mrpjevans.com/much-secure-very-secrets/"/>
+    <updated>2024-02-16T17:38:03Z</updated>
+    <id>https://mrpjevans.com/much-secure-very-secrets/</id>
+    <content type="html">&lt;img alt=&quot;TV news image showing the superbowl security centre - and their wifi password&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://mrpjevans.com/img/2024-02/wifipassword-640w.jpeg&quot; width=&quot;768&quot; height=&quot;438&quot; srcset=&quot;https://mrpjevans.com/img/2024-02/wifipassword-640w.jpeg 640w, https://mrpjevans.com/img/2024-02/wifipassword-768w.jpeg 768w&quot; sizes=&quot;(min-width: 30em) 50vw, 100vw&quot; /&gt;
+&lt;p&gt;Yes. Very secure. Well done you.&lt;/p&gt;
+</content>
+  </entry>
   
   <entry>
     <title>Retro Gaming With Raspberry Pi 3rd Edition</title>
