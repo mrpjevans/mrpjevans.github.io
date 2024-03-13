@@ -43,25 +43,28 @@
       <div class="row justify-content-md-center">
         <div class="col-md-8 col-sm-12 col-lg-6">
 
-          <nav class="navbar bg-dark navbar-expand-lg border-bottom border-body" data-bs-theme="dark">
-            <div class="container-fluid">
-              <a class="navbar-brand logo" href="/">Mr PJ Evans</a>
-							<div>
+					<header>
+						<nav class="navbar bg-dark navbar-expand-lg border-bottom border-body" data-bs-theme="dark">
+							<div class="container-fluid">
+								<a class="navbar-brand logo" href="/">Mr PJ Evans</a>
 								<div>
-									<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-										<li class="nav-item">
-										<a class="nav-link " href="/tags">Tags</a>
-										</li>
-										<li class="nav-item">
-											<a class="nav-link " href="/about">About</a>
-										</li>
-									</ul>
-								</div>	
+									<div>
+										<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+											<li class="nav-item">
+											<a class="nav-link " href="/tags">Tags</a>
+											</li>
+											<li class="nav-item">
+												<a class="nav-link " href="/about">About</a>
+											</li>
+										</ul>
+									</div>	
+								</div>
 							</div>
-            </div>
-          </nav>
+						</nav>
+					</header>
 
-          
+					<main>
+          	
 <h1 class="h1-with-date">Raspberry Pi and NVMe SSD Not Working?</h1>
 
 <p class="meta-date text-center">13 Mar 2024</p>
@@ -69,7 +72,8 @@
 
 <img alt="Underside of the Argon ONE NVMe Case" loading="lazy" decoding="async" src="/img/2024-03/argon40-nvme-640w.jpeg" width="1024" height="768" srcset="/img/2024-03/argon40-nvme-640w.jpeg 640w, /img/2024-03/argon40-nvme-768w.jpeg 768w, /img/2024-03/argon40-nvme-1024w.jpeg 1024w" sizes="(min-width: 30em) 50vw, 100vw">
 
-<p>With the arrival of Raspberry Pi 5 it's a brave new world for my favourite little computer. The new shiny PCI-Express header allows super-duper-fast peripherals to bypass the bottleneck that is USB. An instant ask is for NVMe SSD drive support. One of the first to appear, pictured here, is the classic Argon ONE case updated for Raspberry Pi 5 and an NVMe M.2 to PCI-E adaptor built into the base.</p>
+<article>
+  <p>With the arrival of Raspberry Pi 5 it's a brave new world for my favourite little computer. The new shiny PCI-Express header allows super-duper-fast peripherals to bypass the bottleneck that is USB. An instant ask is for NVMe SSD drive support. One of the first to appear, pictured here, is the classic Argon ONE case updated for Raspberry Pi 5 and an NVMe M.2 to PCI-E adaptor built into the base.</p>
 <p>I eagerly procured a 1TB NVMe SSD, popped open the bottom of the case, fitted the PCB, put everything back together again, made sure the ribbon cable was correctly connected to both the Pi and the drive, booted and ...nothing. The Raspberry Pi happily booted off the existing SD Card, but no sign of the NVMe drive in <code>/dev</code>. Nada. Ziltch.</p>
 <p>If you've found yourself in the same boat, here's the solution. The current stock bootloader <em>does not support</em> NVMe devices. The OS will simply ignore them. To get everything running:</p>
 <ul>
@@ -89,6 +93,7 @@
 </ul>
 <p>You're now ready to partition and format the drive. Once it's ready for use, you can use <code>raspi-config</code> again to set it to be the default boot drive and say goodbye to SD cards.</p>
 
+</article>
 
 <div class="row">
   <div class="col-12 mb-3">
@@ -100,18 +105,19 @@
 <p class="backlink">
   <a href="/">Home</a>
 </p>
+					</main>
 
         </div>
 
         <div class="row justify-content-md-center p-0">
 					
-          <div class="col-md-8 col-sm-12 col-lg-6 footer">
+          <footer class="col-md-8 col-sm-12 col-lg-6 footer">
 
             <hr>
 
             <div xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">
 						  
-							<a id="rss-icon" href="/feed/feed.xml" aria-details="RSS Feed">
+							<a id="rss-icon" href="/feed/feed.xml" aria-label="RSS Feed">
 								<svg
   xmlns="http://www.w3.org/2000/svg"
   fill="currentColor"
@@ -135,7 +141,7 @@
               </a>
             </p>
 
-          </div>
+          </footer>
         </div>
 
       </div>

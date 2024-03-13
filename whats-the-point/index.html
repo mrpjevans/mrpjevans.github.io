@@ -43,25 +43,28 @@
       <div class="row justify-content-md-center">
         <div class="col-md-8 col-sm-12 col-lg-6">
 
-          <nav class="navbar bg-dark navbar-expand-lg border-bottom border-body" data-bs-theme="dark">
-            <div class="container-fluid">
-              <a class="navbar-brand logo" href="/">Mr PJ Evans</a>
-							<div>
+					<header>
+						<nav class="navbar bg-dark navbar-expand-lg border-bottom border-body" data-bs-theme="dark">
+							<div class="container-fluid">
+								<a class="navbar-brand logo" href="/">Mr PJ Evans</a>
 								<div>
-									<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-										<li class="nav-item">
-										<a class="nav-link " href="/tags">Tags</a>
-										</li>
-										<li class="nav-item">
-											<a class="nav-link " href="/about">About</a>
-										</li>
-									</ul>
-								</div>	
+									<div>
+										<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+											<li class="nav-item">
+											<a class="nav-link " href="/tags">Tags</a>
+											</li>
+											<li class="nav-item">
+												<a class="nav-link " href="/about">About</a>
+											</li>
+										</ul>
+									</div>	
+								</div>
 							</div>
-            </div>
-          </nav>
+						</nav>
+					</header>
 
-          
+					<main>
+          	
 <h1 class="h1-with-date">What's The (Decimal) Point?</h1>
 
 <p class="meta-date text-center">05 Feb 2024</p>
@@ -69,7 +72,8 @@
 
 <img alt="A very big reel" loading="lazy" decoding="async" src="/img/2024-02/whats-the-point-640w.jpeg" width="1024" height="1024" srcset="/img/2024-02/whats-the-point-640w.jpeg 640w, /img/2024-02/whats-the-point-768w.jpeg 768w, /img/2024-02/whats-the-point-1024w.jpeg 1024w" sizes="(min-width: 30em) 50vw, 100vw">
 
-<p><em>A cautionary tale of a bug that wasn’t (yet was)</em></p>
+<article>
+  <p><em>A cautionary tale of a bug that wasn’t (yet was)</em></p>
 <p>I’m currently working with a team helping an industrial textile manufacturer based in Lyon, France. Part of the job is working with a CSV file (isn’t it always) and translating the data into JSON so it’s usable by Elasticsearch. All has been going well until the other day when our P.O. found something weird.</p>
 <p>The CSV in question is a list of material rolls material that are currently in the warehouse. We convert the data so it is rendered on a rather lovely website (you can tell I didn’t design it) so it can be easily searched. Common to every roll are attributes like type, colour, width and length. Today it was the width that had us scratching our heads.</p>
 <p>Up to now we had been happily displaying the width in meters, yet a latest export from their systems, a roll had turned up that was 900 meters wide. Now, I can’t say I know much about the textile industry but even I was struggling with the fact that somewhere in the warehouse was lurking a roll of material NEARLY ONE KILOMETER WIDE. That surely would cause issues, or collapse into a black hole of some kind.</p>
@@ -80,6 +84,7 @@
 <p>This particular <em>rosbif</em> had completely forgotten that is perfectly normal in France and other countries to use ‘.’ as the thousands separator and ‘,’ as the decimal point. All the widths were in millimetres. However, and here’s the kicker, as most were one to three meters, the data had been correct all this time by accident, as we took the period to be the decimal point, which is right if you want to divide by one thousand. Only when something less than a thousand showed up did the bug manifest. A quick line of sanitising code to remove the period and treat everything as millimetres and our 900 meter frankenroll was shrunk down to size.</p>
 <p>The moral of this story is, when working with ‘punctuated’ numbers, be always sure to ask someone “What’s the (decimal) point?”.</p>
 
+</article>
 
 <div class="row">
   <div class="col-12 mb-3">
@@ -91,18 +96,19 @@
 <p class="backlink">
   <a href="/">Home</a>
 </p>
+					</main>
 
         </div>
 
         <div class="row justify-content-md-center p-0">
 					
-          <div class="col-md-8 col-sm-12 col-lg-6 footer">
+          <footer class="col-md-8 col-sm-12 col-lg-6 footer">
 
             <hr>
 
             <div xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">
 						  
-							<a id="rss-icon" href="/feed/feed.xml" aria-details="RSS Feed">
+							<a id="rss-icon" href="/feed/feed.xml" aria-label="RSS Feed">
 								<svg
   xmlns="http://www.w3.org/2000/svg"
   fill="currentColor"
@@ -126,7 +132,7 @@
               </a>
             </p>
 
-          </div>
+          </footer>
         </div>
 
       </div>
