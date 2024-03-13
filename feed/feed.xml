@@ -3,7 +3,7 @@
   <title>Mr PJ Evans</title>
   <link href="https://mrpjevans.com/feed/feed.xml" rel="self"/>
   <link href="https://mrpjevans.com/"/>
-  <updated>2024-03-11T21:22:18Z</updated>
+  <updated>2024-03-13T15:17:07Z</updated>
   <id>https://mrpjevans.com/</id>
   <author>
     <name>PJ Evans</name>
@@ -14,8 +14,7 @@
     <link href="https://mrpjevans.com/the-magpi-issue-139/"/>
     <updated>2024-02-29T11:52:25Z</updated>
     <id>https://mrpjevans.com/the-magpi-issue-139/</id>
-    <content type="html">&lt;img alt=&quot;Magazine cover for The MagPi Issue 139&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://mrpjevans.com/img/2024-02/magpi-139-640w.jpeg&quot; width=&quot;1024&quot; height=&quot;1024&quot; srcset=&quot;https://mrpjevans.com/img/2024-02/magpi-139-640w.jpeg 640w, https://mrpjevans.com/img/2024-02/magpi-139-768w.jpeg 768w, https://mrpjevans.com/img/2024-02/magpi-139-1024w.jpeg 1024w&quot; sizes=&quot;(min-width: 30em) 50vw, 100vw&quot; /&gt;
-&lt;p&gt;&lt;a href=&quot;https://magpi.raspberrypi.com/issues/139&quot;&gt;The MagPi issue 139&lt;/a&gt; is now available, specially release to coincide with Raspberry Pi&#39;s third birthday. (That&#39;s right, third, Raspberry Pi is a leap-year baby!)&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;a href=&quot;https://magpi.raspberrypi.com/issues/139&quot;&gt;The MagPi issue 139&lt;/a&gt; is now available, specially release to coincide with Raspberry Pi&#39;s third birthday. (That&#39;s right, third, Raspberry Pi is a leap-year baby!)&lt;/p&gt;
 &lt;p&gt;I&#39;ve been busy in this one. Firstly the cover feature is a beginner&#39;s all-purpose troubleshooting guide. A lot of the stuff covered seems basic, but that&#39;s because we know it. There was a time we didn&#39;t and thats the sort of up-and-coming one-day-soon-experts this is for. Everything from powering on to diagnosing audio issues and your first GPIO hook-up. I&#39;m hoping it saves someone out there some time and frustration.&lt;/p&gt;
 &lt;p&gt;That&#39;s not all! In the tutorials section you can find the first of a two-parter on upcycling Sonos speakers. A while ago the S1/S2 debacle caused my Sonos Play:1 speaker to become less useful and recently I decided I wanted something that could play ambient music just by pushing a button. So, some mangling with a Torx screwdriver later and I had a Raspberry Pi 3A installed running both AirPlay (for Apple device streaming) and a custom script to stream channels from the excellent &lt;a href=&quot;https://somafm.com/&quot;&gt;SomaFM&lt;/a&gt;. Part one details how to get inside the Sonos player and install some Raspberry Pi hardware. It can, of course, be applied to any audio device such as a vintage radio. Part two will cover the software side of things.&lt;/p&gt;
 </content>
@@ -26,8 +25,7 @@
     <link href="https://mrpjevans.com/much-secure-very-secrets/"/>
     <updated>2024-02-16T17:38:03Z</updated>
     <id>https://mrpjevans.com/much-secure-very-secrets/</id>
-    <content type="html">&lt;img alt=&quot;TV news image showing the superbowl security centre - and their wifi password&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://mrpjevans.com/img/2024-02/wifipassword-640w.jpeg&quot; width=&quot;768&quot; height=&quot;438&quot; srcset=&quot;https://mrpjevans.com/img/2024-02/wifipassword-640w.jpeg 640w, https://mrpjevans.com/img/2024-02/wifipassword-768w.jpeg 768w&quot; sizes=&quot;(min-width: 30em) 50vw, 100vw&quot; /&gt;
-&lt;p&gt;Yes. Very secure. Well done you.&lt;/p&gt;
+    <content type="html">&lt;p&gt;Yes. Very secure. Well done you.&lt;/p&gt;
 </content>
   </entry>
   
@@ -36,8 +34,7 @@
     <link href="https://mrpjevans.com/retro-gaming-with-raspberry-pi-3rd-edition/"/>
     <updated>2024-02-12T16:09:03Z</updated>
     <id>https://mrpjevans.com/retro-gaming-with-raspberry-pi-3rd-edition/</id>
-    <content type="html">&lt;img alt=&quot;A shelf showing copies of Retro Gaming for Raspberry Pi and The MagPi&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://mrpjevans.com/img/2024-02/retro-gaming-with-raspberry-pi-3rd-edition-640w.jpeg&quot; width=&quot;1024&quot; height=&quot;768&quot; srcset=&quot;https://mrpjevans.com/img/2024-02/retro-gaming-with-raspberry-pi-3rd-edition-640w.jpeg 640w, https://mrpjevans.com/img/2024-02/retro-gaming-with-raspberry-pi-3rd-edition-768w.jpeg 768w, https://mrpjevans.com/img/2024-02/retro-gaming-with-raspberry-pi-3rd-edition-1024w.jpeg 1024w&quot; sizes=&quot;(min-width: 30em) 50vw, 100vw&quot; /&gt;
-&lt;p&gt;Just out is the third edition of Retro Gaming With Raspberry Pi. This 170+ page tome tell you everything you need to know about bringing the old games back to life. There&#39;s so much more than &#39;download this emulator&#39;. You can learn about the homebrew scene, how to modify and augmenting existing hardware and even build your own classic arcade cabinet.&lt;/p&gt;
+    <content type="html">&lt;p&gt;Just out is the third edition of Retro Gaming With Raspberry Pi. This 170+ page tome tell you everything you need to know about bringing the old games back to life. There&#39;s so much more than &#39;download this emulator&#39;. You can learn about the homebrew scene, how to modify and augmenting existing hardware and even build your own classic arcade cabinet.&lt;/p&gt;
 &lt;p&gt;Most text comes from the great KG Orphanides but a few of us others managed to get a word or two in as well. You&#39;ll find my pieces on cloud gaming and turning a Pi Zero into a digital tape deck for the ZX Spectrum.&lt;/p&gt;
 &lt;p&gt;£14 and available now from the link below.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://store.rpipress.cc/collections/latest-releases/products/retro-gaming-with-raspberry-pi-3rd-edition&quot;&gt;Retro Gaming With Raspberry Pi&lt;/a&gt;&lt;/p&gt;
@@ -49,8 +46,7 @@
     <link href="https://mrpjevans.com/whatever/"/>
     <updated>2024-02-09T09:26:57Z</updated>
     <id>https://mrpjevans.com/whatever/</id>
-    <content type="html">&lt;img alt=&quot;Unisex toilet sign reading &#39;Whatever, just wash your hands&#39;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://mrpjevans.com/img/2024-02/whatever-640w.jpeg&quot; width=&quot;768&quot; height=&quot;731&quot; srcset=&quot;https://mrpjevans.com/img/2024-02/whatever-640w.jpeg 640w, https://mrpjevans.com/img/2024-02/whatever-768w.jpeg 768w&quot; sizes=&quot;(min-width: 30em) 50vw, 100vw&quot; /&gt;
-&lt;p&gt;Spotted at Smokeworks in Cambridge, UK&lt;/p&gt;
+    <content type="html">&lt;p&gt;Spotted at Smokeworks in Cambridge, UK&lt;/p&gt;
 </content>
   </entry>
   
@@ -59,8 +55,7 @@
     <link href="https://mrpjevans.com/whats-the-point/"/>
     <updated>2024-02-05T14:59:52Z</updated>
     <id>https://mrpjevans.com/whats-the-point/</id>
-    <content type="html">&lt;img alt=&quot;A very big reel&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://mrpjevans.com/img/2024-02/whats-the-point-640w.jpeg&quot; width=&quot;1024&quot; height=&quot;1024&quot; srcset=&quot;https://mrpjevans.com/img/2024-02/whats-the-point-640w.jpeg 640w, https://mrpjevans.com/img/2024-02/whats-the-point-768w.jpeg 768w, https://mrpjevans.com/img/2024-02/whats-the-point-1024w.jpeg 1024w&quot; sizes=&quot;(min-width: 30em) 50vw, 100vw&quot; /&gt;
-&lt;p&gt;&lt;em&gt;A cautionary tale of a bug that wasn’t (yet was)&lt;/em&gt;&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;em&gt;A cautionary tale of a bug that wasn’t (yet was)&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;I’m currently working with a team helping an industrial textile manufacturer based in Lyon, France. Part of the job is working with a CSV file (isn’t it always) and translating the data into JSON so it’s usable by Elasticsearch. All has been going well until the other day when our P.O. found something weird.&lt;/p&gt;
 &lt;p&gt;The CSV in question is a list of material rolls material that are currently in the warehouse. We convert the data so it is rendered on a rather lovely website (you can tell I didn’t design it) so it can be easily searched. Common to every roll are attributes like type, colour, width and length. Today it was the width that had us scratching our heads.&lt;/p&gt;
 &lt;p&gt;Up to now we had been happily displaying the width in meters, yet a latest export from their systems, a roll had turned up that was 900 meters wide. Now, I can’t say I know much about the textile industry but even I was struggling with the fact that somewhere in the warehouse was lurking a roll of material NEARLY ONE KILOMETER WIDE. That surely would cause issues, or collapse into a black hole of some kind.&lt;/p&gt;
