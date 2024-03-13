@@ -3,11 +3,38 @@
   <title>Mr PJ Evans</title>
   <link href="https://mrpjevans.com/feed/feed.xml" rel="self"/>
   <link href="https://mrpjevans.com/"/>
-  <updated>2024-03-13T17:26:25Z</updated>
+  <updated>2024-03-13T17:46:45Z</updated>
   <id>https://mrpjevans.com/</id>
   <author>
     <name>PJ Evans</name>
   </author>
+  
+  <entry>
+    <title>Raspberry Pi and NVMe SSD Not Working?</title>
+    <link href="https://mrpjevans.com/raspberry-pi-and-nvme-ssd-not-working/"/>
+    <updated>2024-03-13T17:32:44Z</updated>
+    <id>https://mrpjevans.com/raspberry-pi-and-nvme-ssd-not-working/</id>
+    <content type="html">&lt;p&gt;With the arrival of Raspberry Pi 5 it&#39;s a brave new world for my favourite little computer. The new shiny PCI-Express header allows super-duper-fast peripherals to bypass the bottleneck that is USB. An instant ask is for NVMe SSD drive support. One of the first to appear, pictured here, is the classic Argon ONE case updated for Raspberry Pi 5 and an NVMe M.2 to PCI-E adaptor built into the base.&lt;/p&gt;
+&lt;p&gt;I eagerly procured a 1TB NVMe SSD, popped open the bottom of the case, fitted the PCB, put everything back together again, made sure the ribbon cable was correctly connected to both the Pi and the drive, booted and ...nothing. The Raspberry Pi happily booted off the existing SD Card, but no sign of the NVMe drive in &lt;code&gt;/dev&lt;/code&gt;. Nada. Ziltch.&lt;/p&gt;
+&lt;p&gt;If you&#39;ve found yourself in the same boat, here&#39;s the solution. The current stock bootloader &lt;em&gt;does not support&lt;/em&gt; NVMe devices. The OS will simply ignore them. To get everything running:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Open a command line terminal&lt;/li&gt;
+&lt;li&gt;Run: &lt;code&gt;sudo raspi-config&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;When the menu appears, select &lt;code&gt;Advanced Options&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Then &lt;code&gt;Bootloader Version&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Finally &lt;code&gt;Latest&lt;/code&gt; to select the bootloader with NVMe support&lt;/li&gt;
+&lt;li&gt;Confirm with &lt;code&gt;Yes&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Press escape until you are asked if you want to reboot - you do&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;When the OS has rebooted:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Open a terminal window&lt;/li&gt;
+&lt;li&gt;Run: &lt;code&gt;blkid&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Look at the results - you should now see a &lt;code&gt;/dev/nvme*&lt;/code&gt; device&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You&#39;re now ready to partition and format the drive. Once it&#39;s ready for use, you can use &lt;code&gt;raspi-config&lt;/code&gt; again to set it to be the default boot drive and say goodbye to SD cards.&lt;/p&gt;
+</content>
+  </entry>
   
   <entry>
     <title>The MagPi Issue 139</title>
