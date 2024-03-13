@@ -76,3 +76,7 @@ img[width][height] {
 .cc img {
 	height: 1.5rem;
 }
+
+#rss-icon svg {
+	width: 1.4rem;
+}
