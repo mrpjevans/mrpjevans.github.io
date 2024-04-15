@@ -3,11 +3,21 @@
   <title>Mr PJ Evans</title>
   <link href="https://mrpjevans.com/feed/feed.xml" rel="self"/>
   <link href="https://mrpjevans.com/"/>
-  <updated>2024-03-13T20:25:32Z</updated>
+  <updated>2024-04-15T16:08:51Z</updated>
   <id>https://mrpjevans.com/</id>
   <author>
     <name>PJ Evans</name>
   </author>
+  
+  <entry>
+    <title>The MagPi Issue 140</title>
+    <link href="https://mrpjevans.com/the-magpi-issue-140/"/>
+    <updated>2024-04-15T16:03:25Z</updated>
+    <id>https://mrpjevans.com/the-magpi-issue-140/</id>
+    <content type="html">&lt;p&gt;The latest version of The MagPi is now available in all good booksellers (and probably some bad ones too). In this issue I cover the basics of learning to code. This can often be a intimidating prospect even when you are excited about the possibilities. This entry-level piece guides you through that most important part of all projects - getting started.&lt;/p&gt;
+&lt;p&gt;Also featured is the second part of my Sonos Play:1 conversion. In this final tutorial, we turn our attention to software and stream some audio from the wonderful &lt;a href=&quot;https://somafm.com/&quot;&gt;SomaFM&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
   
   <entry>
     <title>Raspberry Pi and NVMe SSD Not Working?</title>
