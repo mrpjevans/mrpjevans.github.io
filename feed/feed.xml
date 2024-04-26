@@ -3,11 +3,24 @@
   <title>Mr PJ Evans</title>
   <link href="https://mrpjevans.com/feed/feed.xml" rel="self"/>
   <link href="https://mrpjevans.com/"/>
-  <updated>2024-04-15T16:08:51Z</updated>
+  <updated>2024-04-26T09:03:58Z</updated>
   <id>https://mrpjevans.com/</id>
   <author>
     <name>PJ Evans</name>
   </author>
+  
+  <entry>
+    <title>The MagPi Issue 141</title>
+    <link href="https://mrpjevans.com/the-magpi-issue-141/"/>
+    <updated>2024-04-26T08:42:55Z</updated>
+    <id>https://mrpjevans.com/the-magpi-issue-141/</id>
+    <content type="html">&lt;p&gt;In the latest MagPi - Issue #141 - I have a chat with Oscar Vermeulen who has just launched his PiDP-10 kit, the latest in a series of Raspberry Pi-based DEC computer recreations. This is his most ambitious yet, with a two-thirds scale reproduction of the legendary system. It comes complete with MIT&#39;s ITS OS, which made the computer ideal for hacking - leading to the very first computer game - Spacewar.&lt;/p&gt;
+&lt;img alt=&quot;PiDP-10&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://mrpjevans.com/img/2024-04/pdp10-case-640w.jpeg&quot; width=&quot;1024&quot; height=&quot;771&quot; srcset=&quot;https://mrpjevans.com/img/2024-04/pdp10-case-640w.jpeg 640w, https://mrpjevans.com/img/2024-04/pdp10-case-768w.jpeg 768w, https://mrpjevans.com/img/2024-04/pdp10-case-1024w.jpeg 1024w&quot; sizes=&quot;(min-width: 30em) 50vw, 100vw&quot; /&gt;
+&lt;p&gt;Also featured is a tutorial on AI on Raspberry Pi, a case round-up and some cool stuff on robots. It&#39;s a packed issue.&lt;/p&gt;
+&lt;p&gt;Look out for the next issue where I&#39;ll be reviewing the PDP-10 kit.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://magpi.raspberrypi.com/issues/141&quot;&gt;https://magpi.raspberrypi.com/issues/141&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
   
   <entry>
     <title>The MagPi Issue 140</title>
