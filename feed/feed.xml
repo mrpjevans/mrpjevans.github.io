@@ -3,11 +3,20 @@
   <title>Mr PJ Evans</title>
   <link href="https://mrpjevans.com/feed/feed.xml" rel="self"/>
   <link href="https://mrpjevans.com/"/>
-  <updated>2024-04-26T09:03:58Z</updated>
+  <updated>2024-07-03T14:35:04Z</updated>
   <id>https://mrpjevans.com/</id>
   <author>
     <name>PJ Evans</name>
   </author>
+  
+  <entry>
+    <title></title>
+    <link href="https://mrpjevans.com/byoi/"/>
+    <updated>2024-07-03T14:34:42Z</updated>
+    <id>https://mrpjevans.com/byoi/</id>
+    <content type="html">&lt;p&gt;jsdhjfhsj&lt;/p&gt;
+</content>
+  </entry>
   
   <entry>
     <title>The MagPi Issue 141</title>
