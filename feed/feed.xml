@@ -3,7 +3,7 @@
   <title>Mr PJ Evans</title>
   <link href="https://mrpjevans.com/feed/feed.xml" rel="self"/>
   <link href="https://mrpjevans.com/"/>
-  <updated>2024-07-04T03:42:51Z</updated>
+  <updated>2024-07-25T11:25:49Z</updated>
   <id>https://mrpjevans.com/</id>
   <author>
     <name>PJ Evans</name>
@@ -12,7 +12,7 @@
   <entry>
     <title>The MagPi Issue 141</title>
     <link href="https://mrpjevans.com/the-magpi-issue-141/"/>
-    <updated>2024-04-26T08:42:55Z</updated>
+    <updated>2024-04-26T00:00:00Z</updated>
     <id>https://mrpjevans.com/the-magpi-issue-141/</id>
     <content type="html">&lt;p&gt;In the latest MagPi - Issue #141 - I have a chat with Oscar Vermeulen who has just launched his PiDP-10 kit, the latest in a series of Raspberry Pi-based DEC computer recreations. This is his most ambitious yet, with a two-thirds scale reproduction of the legendary system. It comes complete with MIT&#39;s ITS OS, which made the computer ideal for hacking - leading to the very first computer game - Spacewar.&lt;/p&gt;
 &lt;img alt=&quot;PiDP-10&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://mrpjevans.com/img/2024-04/pdp10-case-640w.jpeg&quot; width=&quot;1024&quot; height=&quot;771&quot; srcset=&quot;https://mrpjevans.com/img/2024-04/pdp10-case-640w.jpeg 640w, https://mrpjevans.com/img/2024-04/pdp10-case-768w.jpeg 768w, https://mrpjevans.com/img/2024-04/pdp10-case-1024w.jpeg 1024w&quot; sizes=&quot;(min-width: 30em) 50vw, 100vw&quot; /&gt;
@@ -25,7 +25,7 @@
   <entry>
     <title>The MagPi Issue 140</title>
     <link href="https://mrpjevans.com/the-magpi-issue-140/"/>
-    <updated>2024-04-15T16:03:25Z</updated>
+    <updated>2024-04-15T00:00:00Z</updated>
     <id>https://mrpjevans.com/the-magpi-issue-140/</id>
     <content type="html">&lt;p&gt;The latest version of The MagPi is now available in all good booksellers (and probably some bad ones too). In this issue I cover the basics of learning to code. This can often be a intimidating prospect even when you are excited about the possibilities. This entry-level piece guides you through that most important part of all projects - getting started.&lt;/p&gt;
 &lt;p&gt;Also featured is the second part of my Sonos Play:1 conversion. In this final tutorial, we turn our attention to software and stream some audio from the wonderful &lt;a href=&quot;https://somafm.com/&quot;&gt;SomaFM&lt;/a&gt;&lt;/p&gt;
@@ -35,7 +35,7 @@
   <entry>
     <title>Raspberry Pi and NVMe SSD Not Working?</title>
     <link href="https://mrpjevans.com/raspberry-pi-and-nvme-ssd-not-working/"/>
-    <updated>2024-03-13T17:32:44Z</updated>
+    <updated>2024-03-13T00:00:00Z</updated>
     <id>https://mrpjevans.com/raspberry-pi-and-nvme-ssd-not-working/</id>
     <content type="html">&lt;p&gt;With the arrival of Raspberry Pi 5 it&#39;s a brave new world for my favourite little computer. The new shiny PCI-Express header allows super-duper-fast peripherals to bypass the bottleneck that is USB. An instant ask is for NVMe SSD drive support. One of the first to appear, pictured here, is the classic Argon ONE case updated for Raspberry Pi 5 and an NVMe M.2 to PCI-E adaptor built into the base.&lt;/p&gt;
 &lt;p&gt;I eagerly procured a 1TB NVMe SSD, popped open the bottom of the case, fitted the PCB, put everything back together again, made sure the ribbon cable was correctly connected to both the Pi and the drive, booted and ...nothing. The Raspberry Pi happily booted off the existing SD Card, but no sign of the NVMe drive in &lt;code&gt;/dev&lt;/code&gt;. Nada. Ziltch.&lt;/p&gt;
@@ -62,7 +62,7 @@
   <entry>
     <title>The MagPi Issue 139</title>
     <link href="https://mrpjevans.com/the-magpi-issue-139/"/>
-    <updated>2024-02-29T11:52:25Z</updated>
+    <updated>2024-02-29T00:00:00Z</updated>
     <id>https://mrpjevans.com/the-magpi-issue-139/</id>
     <content type="html">&lt;p&gt;&lt;a href=&quot;https://magpi.raspberrypi.com/issues/139&quot;&gt;The MagPi issue 139&lt;/a&gt; is now available, specially release to coincide with Raspberry Pi&#39;s third birthday. (That&#39;s right, third, Raspberry Pi is a leap-year baby!)&lt;/p&gt;
 &lt;p&gt;I&#39;ve been busy in this one. Firstly the cover feature is a beginner&#39;s all-purpose troubleshooting guide. A lot of the stuff covered seems basic, but that&#39;s because we know it. There was a time we didn&#39;t and thats the sort of up-and-coming one-day-soon-experts this is for. Everything from powering on to diagnosing audio issues and your first GPIO hook-up. I&#39;m hoping it saves someone out there some time and frustration.&lt;/p&gt;
@@ -73,7 +73,7 @@
   <entry>
     <title>Much secure very secrets</title>
     <link href="https://mrpjevans.com/much-secure-very-secrets/"/>
-    <updated>2024-02-16T17:38:03Z</updated>
+    <updated>2024-02-16T00:00:00Z</updated>
     <id>https://mrpjevans.com/much-secure-very-secrets/</id>
     <content type="html">&lt;p&gt;Yes. Very secure. Well done you.&lt;/p&gt;
 </content>
@@ -82,7 +82,7 @@
   <entry>
     <title>Retro Gaming With Raspberry Pi 3rd Edition</title>
     <link href="https://mrpjevans.com/retro-gaming-with-raspberry-pi-3rd-edition/"/>
-    <updated>2024-02-12T16:09:03Z</updated>
+    <updated>2024-02-12T00:00:00Z</updated>
     <id>https://mrpjevans.com/retro-gaming-with-raspberry-pi-3rd-edition/</id>
     <content type="html">&lt;p&gt;Just out is the third edition of Retro Gaming With Raspberry Pi. This 170+ page tome tell you everything you need to know about bringing the old games back to life. There&#39;s so much more than &#39;download this emulator&#39;. You can learn about the homebrew scene, how to modify and augmenting existing hardware and even build your own classic arcade cabinet.&lt;/p&gt;
 &lt;p&gt;Most text comes from the great KG Orphanides but a few of us others managed to get a word or two in as well. You&#39;ll find my pieces on cloud gaming and turning a Pi Zero into a digital tape deck for the ZX Spectrum.&lt;/p&gt;
@@ -94,7 +94,7 @@
   <entry>
     <title>Whatever</title>
     <link href="https://mrpjevans.com/whatever/"/>
-    <updated>2024-02-09T09:26:57Z</updated>
+    <updated>2024-02-09T00:00:00Z</updated>
     <id>https://mrpjevans.com/whatever/</id>
     <content type="html">&lt;p&gt;Spotted at Smokeworks in Cambridge, UK&lt;/p&gt;
 </content>
@@ -103,7 +103,7 @@
   <entry>
     <title>What&#39;s The (Decimal) Point?</title>
     <link href="https://mrpjevans.com/whats-the-point/"/>
-    <updated>2024-02-05T14:59:52Z</updated>
+    <updated>2024-02-05T00:00:00Z</updated>
     <id>https://mrpjevans.com/whats-the-point/</id>
     <content type="html">&lt;p&gt;&lt;em&gt;A cautionary tale of a bug that wasn’t (yet was)&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;I’m currently working with a team helping an industrial textile manufacturer based in Lyon, France. Part of the job is working with a CSV file (isn’t it always) and translating the data into JSON so it’s usable by Elasticsearch. All has been going well until the other day when our P.O. found something weird.&lt;/p&gt;
