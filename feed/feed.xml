@@ -3,11 +3,22 @@
   <title>Mr PJ Evans</title>
   <link href="https://mrpjevans.com/feed/feed.xml" rel="self"/>
   <link href="https://mrpjevans.com/"/>
-  <updated>2024-07-25T11:25:49Z</updated>
+  <updated>2024-07-25T11:33:27Z</updated>
   <id>https://mrpjevans.com/</id>
   <author>
     <name>PJ Evans</name>
   </author>
+  
+  <entry>
+    <title>The MagPi Issue 144</title>
+    <link href="https://mrpjevans.com/the-magpi-issue-144/"/>
+    <updated>2024-07-25T00:00:00Z</updated>
+    <id>https://mrpjevans.com/the-magpi-issue-144/</id>
+    <content type="html">&lt;p&gt;It&#39;s The MagPi issue #144! This is the start of a new series on taking back control of your infrastructure and build you own personal private cloud server. Over the coming months we&#39;ll take a deep dive in to designing, build and configuring a home server that can replace many of the cloud services available today.&lt;/p&gt;
+&lt;p&gt;In this first part, we build a solid network-attached storage (NAS) device using a groovy case from Argon and the brilliant OpenMediaVault storage management software.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://magpi.raspberrypi.com/issues/144&quot;&gt;https://magpi.raspberrypi.com/issues/144&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
   
   <entry>
     <title>The MagPi Issue 141</title>
