@@ -3,11 +3,21 @@
   <title>Mr PJ Evans</title>
   <link href="https://mrpjevans.com/feed/feed.xml" rel="self"/>
   <link href="https://mrpjevans.com/"/>
-  <updated>2024-07-25T11:33:27Z</updated>
+  <updated>2024-09-23T13:47:14Z</updated>
   <id>https://mrpjevans.com/</id>
   <author>
     <name>PJ Evans</name>
   </author>
+  
+  <entry>
+    <title>The MagPi Issue 145</title>
+    <link href="https://mrpjevans.com/the-magpi-issue-145/"/>
+    <updated>2024-08-25T00:00:00Z</updated>
+    <id>https://mrpjevans.com/the-magpi-issue-145/</id>
+    <content type="html">&lt;p&gt;This month I continue my series on building the ultimate private cloud server. This time we install CasaOS, a web-based system for installing and managing all kinds of services. At its core is Docker, a way of &#39;containerising&#39; services so they don&#39;t clash with each other. From there we install our first service, an easy way to share files with anyone. No third-party required!&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://magpi.raspberrypi.com/issues/145&quot;&gt;https://magpi.raspberrypi.com/issues/145&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
   
   <entry>
     <title>The MagPi Issue 144</title>
