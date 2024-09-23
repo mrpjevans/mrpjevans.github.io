@@ -3,11 +3,22 @@
   <title>Mr PJ Evans</title>
   <link href="https://mrpjevans.com/feed/feed.xml" rel="self"/>
   <link href="https://mrpjevans.com/"/>
-  <updated>2024-09-23T13:47:14Z</updated>
+  <updated>2024-09-23T13:57:25Z</updated>
   <id>https://mrpjevans.com/</id>
   <author>
     <name>PJ Evans</name>
   </author>
+  
+  <entry>
+    <title>Raspberry Pi Handbook 2025</title>
+    <link href="https://mrpjevans.com/raspberry-pi-handbook-2025/"/>
+    <updated>2024-09-23T00:00:00Z</updated>
+    <id>https://mrpjevans.com/raspberry-pi-handbook-2025/</id>
+    <content type="html">&lt;p&gt;Thinking of getting a Raspberry Pi for a loved one this Christmas. If they&#39;re new to the Pi world then the new Official Raspberry Pi Handbook is an essential accompaniment. It&#39;s just been refreshed for 2025, covering the Raspberry Pi 5 and the new Pico 2. I&#39;ve also managed to sneak in to it, looking at the most basic first steps of setting up your new favourite computer and also getting started on home automation.&lt;/p&gt;
+&lt;p&gt;It&#39;s not all me, me, me though. You&#39;ll also find loads of tutorials, project showcases and buyers guides ready to inspire. Everything from retro gaming through to media servers, it&#39;s all in there.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://magpi.raspberrypi.com/books/handbook-2025&quot;&gt;https://magpi.raspberrypi.com/books/handbook-2025&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
   
   <entry>
     <title>The MagPi Issue 145</title>
