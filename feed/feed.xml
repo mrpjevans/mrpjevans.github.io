@@ -1,152 +1,98 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Mr PJ Evans</title>
-  <link href="https://mrpjevans.com/feed/feed.xml" rel="self"/>
-  <link href="https://mrpjevans.com/"/>
-  <updated>2024-09-23T14:00:41Z</updated>
-  <id>https://mrpjevans.com/</id>
-  <author>
-    <name>PJ Evans</name>
-  </author>
-  
-  <entry>
-    <title>Raspberry Pi Handbook 2025</title>
-    <link href="https://mrpjevans.com/raspberry-pi-handbook-2025/"/>
-    <updated>2024-09-23T00:00:00Z</updated>
-    <id>https://mrpjevans.com/raspberry-pi-handbook-2025/</id>
-    <content type="html">&lt;p&gt;Thinking of getting a Raspberry Pi for a loved one this Christmas. If they&#39;re new to the Pi world then the new Official Raspberry Pi Handbook is an essential accompaniment. It&#39;s just been refreshed for 2025, covering the Raspberry Pi 5 and the new Pico 2. I&#39;ve also managed to sneak in to it, looking at the most basic first steps of setting up your new favourite computer and also getting started on home automation.&lt;/p&gt;
-&lt;p&gt;It&#39;s not all me, me, me though. You&#39;ll also find loads of tutorials, project showcases and buyers guides ready to inspire. Everything from retro gaming through to media servers, it&#39;s all in there.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://magpi.raspberrypi.com/books/handbook-2025&quot;&gt;https://magpi.raspberrypi.com/books/handbook-2025&lt;/a&gt;&lt;/p&gt;
-</content>
-  </entry>
-  
-  <entry>
-    <title>The MagPi Issue 145</title>
-    <link href="https://mrpjevans.com/the-magpi-issue-145/"/>
-    <updated>2024-08-25T00:00:00Z</updated>
-    <id>https://mrpjevans.com/the-magpi-issue-145/</id>
-    <content type="html">&lt;p&gt;This month I continue my series on building the ultimate private cloud server. Now we have file storage with the help of OpenMediaVault, we now explore how you can access files from anywhere in the world using you own VPN server.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://magpi.raspberrypi.com/issues/145&quot;&gt;https://magpi.raspberrypi.com/issues/145&lt;/a&gt;&lt;/p&gt;
-</content>
-  </entry>
-  
-  <entry>
-    <title>The MagPi Issue 144</title>
-    <link href="https://mrpjevans.com/the-magpi-issue-144/"/>
-    <updated>2024-07-25T00:00:00Z</updated>
-    <id>https://mrpjevans.com/the-magpi-issue-144/</id>
-    <content type="html">&lt;p&gt;It&#39;s The MagPi issue #144! This is the start of a new series on taking back control of your infrastructure and build you own personal private cloud server. Over the coming months we&#39;ll take a deep dive in to designing, build and configuring a home server that can replace many of the cloud services available today.&lt;/p&gt;
-&lt;p&gt;In this first part, we build a solid network-attached storage (NAS) device using a groovy case from Argon and the brilliant OpenMediaVault storage management software.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://magpi.raspberrypi.com/issues/144&quot;&gt;https://magpi.raspberrypi.com/issues/144&lt;/a&gt;&lt;/p&gt;
-</content>
-  </entry>
-  
-  <entry>
-    <title>The MagPi Issue 141</title>
-    <link href="https://mrpjevans.com/the-magpi-issue-141/"/>
-    <updated>2024-04-26T00:00:00Z</updated>
-    <id>https://mrpjevans.com/the-magpi-issue-141/</id>
-    <content type="html">&lt;p&gt;In the latest MagPi - Issue #141 - I have a chat with Oscar Vermeulen who has just launched his PiDP-10 kit, the latest in a series of Raspberry Pi-based DEC computer recreations. This is his most ambitious yet, with a two-thirds scale reproduction of the legendary system. It comes complete with MIT&#39;s ITS OS, which made the computer ideal for hacking - leading to the very first computer game - Spacewar.&lt;/p&gt;
-&lt;img alt=&quot;PiDP-10&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://mrpjevans.com/img/2024-04/pdp10-case-640w.jpeg&quot; width=&quot;1024&quot; height=&quot;771&quot; srcset=&quot;https://mrpjevans.com/img/2024-04/pdp10-case-640w.jpeg 640w, https://mrpjevans.com/img/2024-04/pdp10-case-768w.jpeg 768w, https://mrpjevans.com/img/2024-04/pdp10-case-1024w.jpeg 1024w&quot; sizes=&quot;(min-width: 30em) 50vw, 100vw&quot; /&gt;
-&lt;p&gt;Also featured is a tutorial on AI on Raspberry Pi, a case round-up and some cool stuff on robots. It&#39;s a packed issue.&lt;/p&gt;
-&lt;p&gt;Look out for the next issue where I&#39;ll be reviewing the PDP-10 kit.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://magpi.raspberrypi.com/issues/141&quot;&gt;https://magpi.raspberrypi.com/issues/141&lt;/a&gt;&lt;/p&gt;
-</content>
-  </entry>
-  
-  <entry>
-    <title>The MagPi Issue 140</title>
-    <link href="https://mrpjevans.com/the-magpi-issue-140/"/>
-    <updated>2024-04-15T00:00:00Z</updated>
-    <id>https://mrpjevans.com/the-magpi-issue-140/</id>
-    <content type="html">&lt;p&gt;The latest version of The MagPi is now available in all good booksellers (and probably some bad ones too). In this issue I cover the basics of learning to code. This can often be a intimidating prospect even when you are excited about the possibilities. This entry-level piece guides you through that most important part of all projects - getting started.&lt;/p&gt;
-&lt;p&gt;Also featured is the second part of my Sonos Play:1 conversion. In this final tutorial, we turn our attention to software and stream some audio from the wonderful &lt;a href=&quot;https://somafm.com/&quot;&gt;SomaFM&lt;/a&gt;&lt;/p&gt;
-</content>
-  </entry>
-  
-  <entry>
-    <title>Raspberry Pi and NVMe SSD Not Working?</title>
-    <link href="https://mrpjevans.com/raspberry-pi-and-nvme-ssd-not-working/"/>
-    <updated>2024-03-13T00:00:00Z</updated>
-    <id>https://mrpjevans.com/raspberry-pi-and-nvme-ssd-not-working/</id>
-    <content type="html">&lt;p&gt;With the arrival of Raspberry Pi 5 it&#39;s a brave new world for my favourite little computer. The new shiny PCI-Express header allows super-duper-fast peripherals to bypass the bottleneck that is USB. An instant ask is for NVMe SSD drive support. One of the first to appear, pictured here, is the classic Argon ONE case updated for Raspberry Pi 5 and an NVMe M.2 to PCI-E adaptor built into the base.&lt;/p&gt;
-&lt;p&gt;I eagerly procured a 1TB NVMe SSD, popped open the bottom of the case, fitted the PCB, put everything back together again, made sure the ribbon cable was correctly connected to both the Pi and the drive, booted and ...nothing. The Raspberry Pi happily booted off the existing SD Card, but no sign of the NVMe drive in &lt;code&gt;/dev&lt;/code&gt;. Nada. Ziltch.&lt;/p&gt;
-&lt;p&gt;If you&#39;ve found yourself in the same boat, here&#39;s the solution. The current stock bootloader &lt;em&gt;does not support&lt;/em&gt; NVMe devices. The OS will simply ignore them. To get everything running:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Open a command line terminal&lt;/li&gt;
-&lt;li&gt;Run: &lt;code&gt;sudo raspi-config&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;When the menu appears, select &lt;code&gt;Advanced Options&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Then &lt;code&gt;Bootloader Version&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Finally &lt;code&gt;Latest&lt;/code&gt; to select the bootloader with NVMe support&lt;/li&gt;
-&lt;li&gt;Confirm with &lt;code&gt;Yes&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Press escape until you are asked if you want to reboot - you do&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;When the OS has rebooted:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Open a terminal window&lt;/li&gt;
-&lt;li&gt;Run: &lt;code&gt;blkid&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Look at the results - you should now see a &lt;code&gt;/dev/nvme*&lt;/code&gt; device&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;You&#39;re now ready to partition and format the drive. Once it&#39;s ready for use, you can use &lt;code&gt;raspi-config&lt;/code&gt; again to set it to be the default boot drive and say goodbye to SD cards.&lt;/p&gt;
-</content>
-  </entry>
-  
-  <entry>
-    <title>The MagPi Issue 139</title>
-    <link href="https://mrpjevans.com/the-magpi-issue-139/"/>
-    <updated>2024-02-29T00:00:00Z</updated>
-    <id>https://mrpjevans.com/the-magpi-issue-139/</id>
-    <content type="html">&lt;p&gt;&lt;a href=&quot;https://magpi.raspberrypi.com/issues/139&quot;&gt;The MagPi issue 139&lt;/a&gt; is now available, specially release to coincide with Raspberry Pi&#39;s third birthday. (That&#39;s right, third, Raspberry Pi is a leap-year baby!)&lt;/p&gt;
-&lt;p&gt;I&#39;ve been busy in this one. Firstly the cover feature is a beginner&#39;s all-purpose troubleshooting guide. A lot of the stuff covered seems basic, but that&#39;s because we know it. There was a time we didn&#39;t and thats the sort of up-and-coming one-day-soon-experts this is for. Everything from powering on to diagnosing audio issues and your first GPIO hook-up. I&#39;m hoping it saves someone out there some time and frustration.&lt;/p&gt;
-&lt;p&gt;That&#39;s not all! In the tutorials section you can find the first of a two-parter on upcycling Sonos speakers. A while ago the S1/S2 debacle caused my Sonos Play:1 speaker to become less useful and recently I decided I wanted something that could play ambient music just by pushing a button. So, some mangling with a Torx screwdriver later and I had a Raspberry Pi 3A installed running both AirPlay (for Apple device streaming) and a custom script to stream channels from the excellent &lt;a href=&quot;https://somafm.com/&quot;&gt;SomaFM&lt;/a&gt;. Part one details how to get inside the Sonos player and install some Raspberry Pi hardware. It can, of course, be applied to any audio device such as a vintage radio. Part two will cover the software side of things.&lt;/p&gt;
-</content>
-  </entry>
-  
-  <entry>
-    <title>Much secure very secrets</title>
-    <link href="https://mrpjevans.com/much-secure-very-secrets/"/>
-    <updated>2024-02-16T00:00:00Z</updated>
-    <id>https://mrpjevans.com/much-secure-very-secrets/</id>
-    <content type="html">&lt;p&gt;Yes. Very secure. Well done you.&lt;/p&gt;
-</content>
-  </entry>
-  
-  <entry>
-    <title>Retro Gaming With Raspberry Pi 3rd Edition</title>
-    <link href="https://mrpjevans.com/retro-gaming-with-raspberry-pi-3rd-edition/"/>
-    <updated>2024-02-12T00:00:00Z</updated>
-    <id>https://mrpjevans.com/retro-gaming-with-raspberry-pi-3rd-edition/</id>
-    <content type="html">&lt;p&gt;Just out is the third edition of Retro Gaming With Raspberry Pi. This 170+ page tome tell you everything you need to know about bringing the old games back to life. There&#39;s so much more than &#39;download this emulator&#39;. You can learn about the homebrew scene, how to modify and augmenting existing hardware and even build your own classic arcade cabinet.&lt;/p&gt;
-&lt;p&gt;Most text comes from the great KG Orphanides but a few of us others managed to get a word or two in as well. You&#39;ll find my pieces on cloud gaming and turning a Pi Zero into a digital tape deck for the ZX Spectrum.&lt;/p&gt;
-&lt;p&gt;£14 and available now from the link below.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://store.rpipress.cc/collections/latest-releases/products/retro-gaming-with-raspberry-pi-3rd-edition&quot;&gt;Retro Gaming With Raspberry Pi&lt;/a&gt;&lt;/p&gt;
-</content>
-  </entry>
-  
-  <entry>
-    <title>Whatever</title>
-    <link href="https://mrpjevans.com/whatever/"/>
-    <updated>2024-02-09T00:00:00Z</updated>
-    <id>https://mrpjevans.com/whatever/</id>
-    <content type="html">&lt;p&gt;Spotted at Smokeworks in Cambridge, UK&lt;/p&gt;
-</content>
-  </entry>
-  
-  <entry>
-    <title>What&#39;s The (Decimal) Point?</title>
-    <link href="https://mrpjevans.com/whats-the-point/"/>
-    <updated>2024-02-05T00:00:00Z</updated>
-    <id>https://mrpjevans.com/whats-the-point/</id>
-    <content type="html">&lt;p&gt;&lt;em&gt;A cautionary tale of a bug that wasn’t (yet was)&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;I’m currently working with a team helping an industrial textile manufacturer based in Lyon, France. Part of the job is working with a CSV file (isn’t it always) and translating the data into JSON so it’s usable by Elasticsearch. All has been going well until the other day when our P.O. found something weird.&lt;/p&gt;
-&lt;p&gt;The CSV in question is a list of material rolls material that are currently in the warehouse. We convert the data so it is rendered on a rather lovely website (you can tell I didn’t design it) so it can be easily searched. Common to every roll are attributes like type, colour, width and length. Today it was the width that had us scratching our heads.&lt;/p&gt;
-&lt;p&gt;Up to now we had been happily displaying the width in meters, yet a latest export from their systems, a roll had turned up that was 900 meters wide. Now, I can’t say I know much about the textile industry but even I was struggling with the fact that somewhere in the warehouse was lurking a roll of material NEARLY ONE KILOMETER WIDE. That surely would cause issues, or collapse into a black hole of some kind.&lt;/p&gt;
-&lt;p&gt;&amp;quot;Of course&amp;quot;, I said, &amp;quot;it’s a data error. I’ll have a look at import file.&amp;quot;&lt;/p&gt;
-&lt;p&gt;Sure enough, I found the roll in question and it stated 900 meters. &amp;quot;Ha! Someone’s goofed&amp;quot; I thought, not quite realising at this point that someone had indeed goofed, and that person was me.&lt;/p&gt;
-&lt;p&gt;I looked at the other rolls in the file. All were the normal one to three meters in width. Some were 1.200, other 2.300 and so on. So, I reasoned, it was more likely that this roll was maybe 900 millimetres rather than the distance of a recommended daily walk. If that’s the case why on earth are the others in meters?&lt;/p&gt;
-&lt;p&gt;Of course, they were not.&lt;/p&gt;
-&lt;p&gt;This particular &lt;em&gt;rosbif&lt;/em&gt; had completely forgotten that is perfectly normal in France and other countries to use ‘.’ as the thousands separator and ‘,’ as the decimal point. All the widths were in millimetres. However, and here’s the kicker, as most were one to three meters, the data had been correct all this time by accident, as we took the period to be the decimal point, which is right if you want to divide by one thousand. Only when something less than a thousand showed up did the bug manifest. A quick line of sanitising code to remove the period and treat everything as millimetres and our 900 meter frankenroll was shrunk down to size.&lt;/p&gt;
-&lt;p&gt;The moral of this story is, when working with ‘punctuated’ numbers, be always sure to ask someone “What’s the (decimal) point?”.&lt;/p&gt;
-</content>
-  </entry>
-</feed>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:base="https://mrpjevans.com/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mr PJ Evans</title>
+    <link>https://mrpjevans.com/</link>
+    <atom:link href="https://mrpjevans.com/feed/feed.xml" rel="self" type="application/rss+xml" />
+    <description>A blog about stuff</description>
+    <language>en</language>
+    <item>
+      <title>The MagPi Issue 141</title>
+      <link>https://mrpjevans.com/undefined</link>
+      <description>In the latest MagPi - Issue #141 - I have a chat with Oscar Vermeulen who has just launched his PiDP-10 kit, the latest in a series of Raspberry Pi-based DEC computer recreations. This is his most...</description>
+      <pubDate>Fri, 26 Apr 2024 01:00:00 GMT</pubDate>
+      <dc:creator>Mr PJ Evans</dc:creator>
+      <guid>https://mrpjevans.com/undefined</guid>
+    </item>
+    <item>
+      <title>Raspberry Pi Handbook 2025</title>
+      <link>https://mrpjevans.com/undefined</link>
+      <description>Thinking of getting a Raspberry Pi for a loved one this Christmas. If they&#39;re new to the Pi world then the new Official Raspberry Pi Handbook is an essential accompaniment. It&#39;s just been refreshed...</description>
+      <pubDate>Mon, 23 Sep 2024 01:00:00 GMT</pubDate>
+      <dc:creator>Mr PJ Evans</dc:creator>
+      <guid>https://mrpjevans.com/undefined</guid>
+    </item>
+    <item>
+      <title>The MagPi Issue 145</title>
+      <link>https://mrpjevans.com/undefined</link>
+      <description>This month I continue my series on building the ultimate private cloud server. Now we have file storage with the help of OpenMediaVault, we now explore how you can access files from anywhere in the...</description>
+      <pubDate>Sun, 25 Aug 2024 01:00:00 GMT</pubDate>
+      <dc:creator>Mr PJ Evans</dc:creator>
+      <guid>https://mrpjevans.com/undefined</guid>
+    </item>
+    <item>
+      <title>The MagPi Issue 144</title>
+      <link>https://mrpjevans.com/undefined</link>
+      <description>It&#39;s The MagPi issue #144! This is the start of a new series on taking back control of your infrastructure and build you own personal private cloud server. Over the coming months we&#39;ll take a deep...</description>
+      <pubDate>Thu, 25 Jul 2024 01:00:00 GMT</pubDate>
+      <dc:creator>Mr PJ Evans</dc:creator>
+      <guid>https://mrpjevans.com/undefined</guid>
+    </item>
+    <item>
+      <title>The MagPi Issue 140</title>
+      <link>https://mrpjevans.com/undefined</link>
+      <description>The latest version of The MagPi is now available in all good booksellers (and probably some bad ones too). In this issue I cover the basics of learning to code. This can often be a intimidating...</description>
+      <pubDate>Mon, 15 Apr 2024 01:00:00 GMT</pubDate>
+      <dc:creator>Mr PJ Evans</dc:creator>
+      <guid>https://mrpjevans.com/undefined</guid>
+    </item>
+    <item>
+      <title>Raspberry Pi and NVMe SSD Not Working?</title>
+      <link>https://mrpjevans.com/undefined</link>
+      <description>With the arrival of Raspberry Pi 5 it&#39;s a brave new world for my favourite little computer. The new shiny PCI-Express header allows super-duper-fast peripherals to bypass the bottleneck that is USB....</description>
+      <pubDate>Wed, 13 Mar 2024 00:00:00 GMT</pubDate>
+      <dc:creator>Mr PJ Evans</dc:creator>
+      <guid>https://mrpjevans.com/undefined</guid>
+    </item>
+    <item>
+      <title>The MagPi Issue 139</title>
+      <link>https://mrpjevans.com/undefined</link>
+      <description>[The MagPi issue 139](https://magpi.raspberrypi.com/issues/139) is now available, specially release to coincide with Raspberry Pi&#39;s third birthday. (That&#39;s right, third, Raspberry Pi is a leap-year...</description>
+      <pubDate>Thu, 29 Feb 2024 00:00:00 GMT</pubDate>
+      <dc:creator>Mr PJ Evans</dc:creator>
+      <guid>https://mrpjevans.com/undefined</guid>
+    </item>
+    <item>
+      <title>Much secure very secrets</title>
+      <link>https://mrpjevans.com/undefined</link>
+      <description></description>
+      <pubDate>Fri, 16 Feb 2024 00:00:00 GMT</pubDate>
+      <dc:creator>Mr PJ Evans</dc:creator>
+      <guid>https://mrpjevans.com/undefined</guid>
+    </item>
+    <item>
+      <title>Retro Gaming With Raspberry Pi 3rd Edition</title>
+      <link>https://mrpjevans.com/undefined</link>
+      <description>Just out is the third edition of Retro Gaming With Raspberry Pi. This 170+ page tome tell you everything you need to know about bringing the old games back to life. There&#39;s so much more than &#39;download...</description>
+      <pubDate>Mon, 12 Feb 2024 00:00:00 GMT</pubDate>
+      <dc:creator>Mr PJ Evans</dc:creator>
+      <guid>https://mrpjevans.com/undefined</guid>
+    </item>
+    <item>
+      <title>Whatever</title>
+      <link>https://mrpjevans.com/undefined</link>
+      <description></description>
+      <pubDate>Fri, 09 Feb 2024 00:00:00 GMT</pubDate>
+      <dc:creator>Mr PJ Evans</dc:creator>
+      <guid>https://mrpjevans.com/undefined</guid>
+    </item>
+    <item>
+      <title>What&#39;s The (Decimal) Point?</title>
+      <link>https://mrpjevans.com/undefined</link>
+      <description>_A cautionary tale of a bug that wasn’t (yet was)_ I’m currently working with a team helping an industrial textile manufacturer based in Lyon, France. Part of the job is working with a CSV file (isn’t...</description>
+      <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
+      <dc:creator>Mr PJ Evans</dc:creator>
+      <guid>https://mrpjevans.com/undefined</guid>
+    </item>
+  </channel>
+</rss>
