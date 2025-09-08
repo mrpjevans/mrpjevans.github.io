@@ -15,14 +15,16 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
     <link href="/src/css/mrpjevans.css" rel="stylesheet">
+	<link href="/src/css/card.css" rel="stylesheet">
 
 		<link rel="icon" type="image/png" size="256x256" href="/images/pj-blog-logo-256.png">
 
 		<link rel="icon" type="image/png" size="512x512" href="/images/pj-blog-logo-512.png">
 
-			<link rel="alternate" type="application/rss+xml" title="Mr PJ Evans Blog Feed" href="https://mrpjevans.com/feed/feed.xml">
+		<link rel="alternate" type="application/rss+xml" title="Mr PJ Evans Blog Feed" href="https://mrpjevans.com/feed/feed.xml">
 
-<title>Mr PJ Evans | What's The (Decimal) Point?</title>
+		<title>Mr PJ Evans | What's The (Decimal) Point?</title>
+
   </head>
   <body data-bs-theme="dark">
 
@@ -52,23 +54,29 @@
 
 					<main>
           	
+  
+
+  
+    
+    
+
 
     <h1 class="h1-with-date">What's The (Decimal) Point?</h1>
 
 <p class="meta-date text-center">05 Feb 2024</p>
 
-<picture><source type="image/webp" srcset="/whats-the-point/whats_the_point_7cf1e1ff77_8274aaa167-1024w.webp 1024w"><img src="/whats-the-point/whats_the_point_7cf1e1ff77_8274aaa167-1024w.jpeg" alt="Some AI Slop of a person looking up at a huge textile reel" width="1024" height="1024"></picture>
+<picture><source type="image/webp" srcset="/images/whats_the_point_7cf1e1ff77-1024w.webp 1024w"><img src="/images/whats_the_point_7cf1e1ff77-1024w.jpeg" alt="Some AI Slop of a person looking up at a huge textile reel" width="1024" height="1024"></picture>
 
 <article>
   <p><em>A cautionary tale of a bug that wasn’t (yet was)</em></p>
 <p>I’m currently working with a team helping an industrial textile manufacturer based in Lyon, France. Part of the job is working with a CSV file (isn’t it always) and translating the data into JSON so it’s usable by Elasticsearch. All has been going well until the other day when our P.O. found something weird.</p>
 <p>The CSV in question is a list of material rolls material that are currently in the warehouse. We convert the data so it is rendered on a rather lovely website (you can tell I didn’t design it) so it can be easily searched. Common to every roll are attributes like type, colour, width and length. Today it was the width that had us scratching our heads.</p>
 <p>Up to now we had been happily displaying the width in meters, yet a latest export from their systems, a roll had turned up that was 900 meters wide. Now, I can’t say I know much about the textile industry but even I was struggling with the fact that somewhere in the warehouse was lurking a roll of material NEARLY ONE KILOMETER WIDE. That surely would cause issues, or collapse into a black hole of some kind.</p>
-<p>&quot;Of course&quot;, I said, &quot;it’s a data error. I’ll have a look at import file.&quot;</p>
-<p>Sure enough, I found the roll in question and it stated 900 meters. &quot;Ha! Someone’s goofed&quot; I thought, not quite realising at this point that someone had indeed goofed, and that person was me.</p>
-<p>I looked at the other rolls in the file. All were the normal one to three meters in width. Some were 1.200, other 2.300 and so on. So, I reasoned, it was more likely that this roll was maybe 900 millimetres rather than the distance of a recommended daily walk. If that’s the case why on earth are the others in meters?</p>
+<p>"Of course", I said, "it’s a data error. I’ll have a look at import file."</p>
+<p>Sure enough, I found the roll in question and it stated 900 meters. "Ha! Someone’s goofed" I thought, not quite realising at this point that someone had indeed goofed, and that person was me.</p>
+<p>I looked at the other rolls in the file. All were the normal one to three meters in width. Some were 1.200, other 2.300 and so on. So, I reasoned, it was more likely that this roll was maybe 900&nbsp;millimetres&nbsp;rather than the distance of a recommended daily walk. If that’s the case why on earth are the others in meters?</p>
 <p>Of course, they were not.</p>
-<p>This particular <em>rosbif</em> had completely forgotten that is perfectly normal in France and other countries to use ‘.’ as the thousands separator and ‘,’ as the decimal point. All the widths were in millimetres. However, and here’s the kicker, as most were one to three meters, the data had been correct all this time by accident, as we took the period to be the decimal point, which is right if you want to divide by one thousand. Only when something less than a thousand showed up did the bug manifest. A quick line of sanitising code to remove the period and treat everything as millimetres and our 900 meter frankenroll was shrunk down to size.</p>
+<p>This particular&nbsp;<em>rosbif</em>&nbsp;had completely forgotten that is perfectly normal in France and other countries to use ‘.’ as the thousands separator and ‘,’ as the decimal point. All the widths were in millimetres. However, and here’s the kicker, as most were one to three meters, the data had been correct all this time by accident, as we took the period to be the decimal point, which is right if you want to divide by one thousand. Only when something less than a thousand showed up did the bug manifest. A quick line of sanitising code to remove the period and treat everything as millimetres and our 900 meter frankenroll was shrunk down to size.</p>
 <p>The moral of this story is, when working with ‘punctuated’ numbers, be always sure to ask someone “What’s the (decimal) point?”.</p>
 
 </article>
@@ -77,7 +85,11 @@
 <div class="row">
   <div class="col-12 mb-3">
     
-      <a href="/tags/dev" class="badge rounded-pill text-bg-primary">Dev</a>
+      
+        <a href="/tags/dev" class="badge rounded-pill text-bg-primary">Dev</a>
+      
+    
+      
     
   </div>
 </div>
@@ -104,7 +116,7 @@
 
 							<a href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer">
 							<span class="cc">
-								<picture><source type="image/webp" srcset="/whats-the-point/by-nc-sa.eu-403w.webp 403w"><img src="/whats-the-point/by-nc-sa.eu-403w.jpeg" alt="CC BY-NC-SA" width="403" height="141"></picture>
+								<picture><source type="image/webp" srcset="/images/by-nc-sa.eu-403w.webp 403w"><img src="/images/by-nc-sa.eu-403w.jpeg" alt="CC BY-NC-SA" width="403" height="141"></picture>
 							</span>
 						</a>
 

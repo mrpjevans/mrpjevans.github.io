@@ -15,14 +15,16 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
     <link href="/src/css/mrpjevans.css" rel="stylesheet">
+	<link href="/src/css/card.css" rel="stylesheet">
 
 		<link rel="icon" type="image/png" size="256x256" href="/images/pj-blog-logo-256.png">
 
 		<link rel="icon" type="image/png" size="512x512" href="/images/pj-blog-logo-512.png">
 
-			<link rel="alternate" type="application/rss+xml" title="Mr PJ Evans Blog Feed" href="https://mrpjevans.com/feed/feed.xml">
+		<link rel="alternate" type="application/rss+xml" title="Mr PJ Evans Blog Feed" href="https://mrpjevans.com/feed/feed.xml">
 
-<title>Mr PJ Evans | Raspberry Pi and NVMe SSD Not Working?</title>
+		<title>Mr PJ Evans | Raspberry Pi and NVMe SSD Not Working?</title>
+
   </head>
   <body data-bs-theme="dark">
 
@@ -52,42 +54,32 @@
 
 					<main>
           	
+  
+
+  
+    
+    
+
 
     <h1 class="h1-with-date">Raspberry Pi and NVMe SSD Not Working?</h1>
 
 <p class="meta-date text-center">13 Mar 2024</p>
 
-<picture><source type="image/webp" srcset="/raspberry-pi-and-nvme-ssd-not-working/image_d655576e89_9e51979cd8-1024w.webp 1024w"><img src="/raspberry-pi-and-nvme-ssd-not-working/image_d655576e89_9e51979cd8-1024w.jpeg" alt="An Argon Raspberry Pi case with an NVMe drive" width="1024" height="768"></picture>
+<picture><source type="image/webp" srcset="/images/image_d655576e89-1024w.webp 1024w"><img src="/images/image_d655576e89-1024w.jpeg" alt="" width="1024" height="768"></picture>
 
 <article>
-  <p>With the arrival of Raspberry Pi 5 it's a brave new world for my favourite little computer. The new shiny PCI-Express header allows super-duper-fast peripherals to bypass the bottleneck that is USB. An instant ask is for NVMe SSD drive support. One of the first to appear, pictured here, is the classic Argon ONE case updated for Raspberry Pi 5 and an NVMe M.2 to PCI-E adaptor built into the base.</p>
-<p>I eagerly procured a 1TB NVMe SSD, popped open the bottom of the case, fitted the PCB, put everything back together again, made sure the ribbon cable was correctly connected to both the Pi and the drive, booted and ...nothing. The Raspberry Pi happily booted off the existing SD Card, but no sign of the NVMe drive in <code>/dev</code>. Nada. Ziltch.</p>
-<p>If you've found yourself in the same boat, here's the solution. The current stock bootloader <em>does not support</em> NVMe devices. The OS will simply ignore them. To get everything running:</p>
-<ul>
-<li>Open a command line terminal</li>
-<li>Run: <code>sudo raspi-config</code></li>
-<li>When the menu appears, select <code>Advanced Options</code></li>
-<li>Then <code>Bootloader Version</code></li>
-<li>Finally <code>Latest</code> to select the bootloader with NVMe support</li>
-<li>Confirm with <code>Yes</code></li>
-<li>Press escape until you are asked if you want to reboot - you do</li>
-</ul>
-<p>When the OS has rebooted:</p>
-<ul>
-<li>Open a terminal window</li>
-<li>Run: <code>blkid</code></li>
-<li>Look at the results - you should now see a <code>/dev/nvme*</code> device</li>
-<li></li>
-</ul>
-<p>You're now ready to partition and format the drive. Once it's ready for use, you can use <code>raspi-config</code> again to set it to be the default boot drive and say goodbye to SD cards.</p>
-
+  <p>With the arrival of Raspberry Pi 5 it's a brave new world for my favourite little computer. The new shiny PCI-Express header allows super-duper-fast peripherals to bypass the bottleneck that is USB. An instant ask is for NVMe SSD drive support. One of the first to appear, pictured here, is the classic Argon ONE case updated for Raspberry Pi 5 and an NVMe M.2 to PCI-E adaptor built into the base.</p><p>I eagerly procured a 1TB NVMe SSD, popped open the bottom of the case, fitted the PCB, put everything back together again, made sure the ribbon cable was correctly connected to both the Pi and the drive, booted and ...nothing. The Raspberry Pi happily booted off the existing SD Card, but no sign of the NVMe drive in <code>/dev</code>. Nada. Ziltch.</p><p>If you've found yourself in the same boat, here's the solution. The current stock bootloader <em>does not support</em> NVMe devices. The OS will simply ignore them. To get everything running:</p><ul><li>Open a command line terminal</li><li>Run: <code>sudo raspi-config</code></li><li>When the menu appears, select <code>Advanced Options</code></li><li>Then <code>Bootloader Version</code></li><li>Finally <code>Latest</code> to select the bootloader with NVMe support</li><li>Confirm with <code>Yes</code></li><li>Press escape until you are asked if you want to reboot - you do</li></ul><p>When the OS has rebooted:</p><ul><li>Open a terminal window</li><li>Run: <code>blkid</code></li><li>Look at the results - you should now see a <code>/dev/nvme*</code> device</li><li></li></ul><p>You're now ready to partition and format the drive. Once it's ready for use, you can use <code>raspi-config</code> again to set it to be the default boot drive and say goodbye to SD cards.</p>
 </article>
 
 
 <div class="row">
   <div class="col-12 mb-3">
     
-      <a href="/tags/raspberry-pi" class="badge rounded-pill text-bg-primary">Raspberry Pi</a>
+      
+        <a href="/tags/raspberry-pi" class="badge rounded-pill text-bg-primary">Raspberry Pi</a>
+      
+    
+      
     
   </div>
 </div>
@@ -114,7 +106,7 @@
 
 							<a href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer">
 							<span class="cc">
-								<picture><source type="image/webp" srcset="/raspberry-pi-and-nvme-ssd-not-working/by-nc-sa.eu-403w.webp 403w"><img src="/raspberry-pi-and-nvme-ssd-not-working/by-nc-sa.eu-403w.jpeg" alt="CC BY-NC-SA" width="403" height="141"></picture>
+								<picture><source type="image/webp" srcset="/images/by-nc-sa.eu-403w.webp 403w"><img src="/images/by-nc-sa.eu-403w.jpeg" alt="CC BY-NC-SA" width="403" height="141"></picture>
 							</span>
 						</a>
 

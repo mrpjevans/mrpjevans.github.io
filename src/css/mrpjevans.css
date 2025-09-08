@@ -25,7 +25,13 @@ a {
 }
 
 .index-item {
-	margin: 2rem 0 1rem 0;
+	margin: 2rem 0 1.5rem 0;
+	padding: 0 0 0.8rem 0;
+	border-bottom: 1px solid #444;
+}
+
+.index-item:last-child {
+	border-bottom: none;
 }
 
 .meta-date {
@@ -79,4 +85,23 @@ img[width][height] {
 
 #rss-icon svg {
 	width: 1.4rem;
+}
+
+.quote {
+	font-family: 'Nothing You Could Do', cursive;
+	font-size: 1.6rem;
+	text-align: center;
+	margin: 0;
+}
+
+.attribution {
+	font-family: Poppins, system-ui, Helvetica, sans-serif;
+	font-size: 0.9rem;
+	text-align: right;
+	margin: 0.6rem 0 0.8rem 0;
+}
+
+audio, video {
+	width: 100%;
+	margin-bottom: 1rem;
 }
