@@ -60,6 +60,34 @@
     
 
 
+    <h1 class="h1-with-date">BBC Micro Model B Memory Repair</h1>
+
+<p class="meta-date text-center">14 Jan 2016</p>
+
+<picture><source type="image/webp" srcset="/images/IMG_2393-2000w.webp 2000w"><img src="/images/IMG_2393-2000w.jpeg" alt="" width="2000" height="1500"></picture>
+
+<article>
+  <p>So, what do you do when your BBC Model B looks like this?</p><figure class="kg-card kg-image-card kg-card-hascaption"><picture><source type="image/webp" srcset="/images/IMG_2393-1-2000w.webp 2000w"><img src="/images/IMG_2393-1-2000w.jpeg" class="kg-image" alt="" loading="lazy" width="2000" height="1500"></picture><figcaption>Oh dear…</figcaption></figure><p>You throw it in the skip of course!</p><p>Nah, just kidding, you Google like a mad thing. What you learn is that screen corruption like this is a common memory error and your trusty Beeb might not be done for after all.</p><p>First, a little more insight into how BBC memory is organised. On a 32K Model B, there are two banks of memory called CAS0 and CAS1 (Column Address Strobe, since you ask). Each bank has a group of 8 chips, each one responsible for one bit of each byte the computer needs to store, up to 16k per bank. So, Model As have one bank, CAS1 (16k), and a B has CAS0 &amp; CAS1 (32k).</p><p>Yep, the chips handle a bit position, not a byte in its entirety. There are reasons for this, mainly to do with circuit board design.</p><figure class="kg-card kg-image-card"><picture><source type="image/webp" srcset="/images/IMG_2394-2000w.webp 2000w"><img src="/images/IMG_2394-2000w.jpeg" class="kg-image" alt="" loading="lazy" width="2000" height="1500"></picture></figure><p>The S25 jumper on the board can select which bank to use: CAS0, CAS1 or both (Model B). By manipulating the jumper (three positions: north = CAS1&amp;2, south = CAS1 and open = CAS0) I could change which memory bank was being used. My Beeb showed a normal screen when S25 was open, albeit with only 16K available, so the first diagnosis was that the fault existed in CAS1 as CAS0 seemed to be fine. Changing S25 to south proved this, the machine would not boot at all.</p><p>A simple test can reveal some secrets from CAS1:</p><!--kg-card-begin: html--><pre>
+10 A=0
+20 ?&4000=A: IF?&4000<>A THEN PRINT ?&4000
+30 GOTO 20
+</pre><!--kg-card-end: html--><p><a href="http://stardot.org.uk/forums/viewtopic.php?t=7934&ref=stowe.local">Code by leenew</a></p><p>All this code does is write the value 0 to CAS1 memory and read back the result. If you don’t get the same result back (i.e. 0) then you know something is amiss. I ran it. Something was amiss.</p><p>When I stored 0 into memory, 8 was returned. Time for some detective work.</p><p>If each chip deals with a single position in a byte, and we’re getting 8 back, it’s fair to say that the chip handling data bit 3 is stuck on  (we start from 0, so 3 is the fourth along from the right and represents 8).</p><p>i.e. I stored 00000000 and got back 00001000, which is binary for 8.</p><p>You can test for bits stuck on 0 by changing line to 10 to:</p><!--kg-card-begin: html--><pre>
+10 A=255
+</pre><!--kg-card-end: html--><p>The final breakthrough was finding a guide to which chip handles each bit:</p><!--kg-card-begin: html--><pre>
+Data bits - IC numbers
+ Code:
+ /CAS0 /CAS1
+ D0= IC61 IC53
+ D1= IC62 IC54
+ D2= IC63 IC55
+ D3= IC64 IC56
+ D4= IC65 IC57
+ D5= IC66 IC58
+ D6= IC67 IC59
+ D7= IC68 IC60
+ </pre><!--kg-card-end: html--><p>Acknowledgements to 1024MAK in the <a href="http://stardot.org.uk/forums/?ref=stowe.local">startdot.org.uk</a> forums.</p><p>So, it’s data bit 3 on CAS1 which is handled by IC56. You rogue!</p><figure class="kg-card kg-image-card kg-card-hascaption"><picture><source type="image/webp" srcset="/images/IMG_2395-2000w.webp 2000w"><img src="/images/IMG_2395-2000w.jpeg" class="kg-image" alt="" loading="lazy" width="2000" height="1500"></picture><figcaption>GOTCHA!</figcaption></figure><p>Having procured some pin-equivalent memory chips from eBay (MB8118-10), I set about de-soldering IC56 and replacing it with a socket. This is not a job for the faint-hearted. Even with years of soldering experience, I struggled to get the old chip out without damaging the PCB.</p><figure class="kg-card kg-image-card"><picture><source type="image/webp" srcset="/images/IMG_2400-2000w.webp 2000w"><img src="/images/IMG_2400-2000w.jpeg" class="kg-image" alt="" loading="lazy" width="2000" height="1500"></picture></figure><p>I inserted the replacement, took a deep breath, and booted:</p><figure class="kg-card kg-image-card"><picture><source type="image/webp" srcset="/images/IMG_2401-2000w.webp 2000w"><img src="/images/IMG_2401-2000w.jpeg" class="kg-image" alt="" loading="lazy" width="2000" height="1500"></picture></figure><p>Ah. Better, but not perfect. A lot of multimeter-ing revealed I had managed to damage one of the pads on the PCB and one leg wasn’t connected. I replaced it with a tiny bit of wire (as it was only wired to the previous parallel chip) and tried again.</p><figure class="kg-card kg-image-card kg-card-hascaption"><picture><source type="image/webp" srcset="/images/IMG_2404-2000w.webp 2000w"><img src="/images/IMG_2404-2000w.jpeg" class="kg-image" alt="" loading="lazy" width="2000" height="1500"></picture><figcaption>Victory Is Mine!</figcaption></figure><p>HUZZAH!</p><p>Total cost of the repair was about £2.</p><p>A lot of thanks to those who have taken their time to share their experiences on <a href="http://stardot.org.uk/forums/?ref=stowe.local">stardot.org.uk</a>. Without those posts I’d still be looking at millions of corrupt characters.</p>
+</article>
+
 
 <div class="row">
   <div class="col-12 mb-3">

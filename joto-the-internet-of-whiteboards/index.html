@@ -54,18 +54,30 @@
 					<main>
           	
   
+
+  
     
     
 
+
+    <h1 class="h1-with-date">Joto - The Internet of Whiteboards</h1>
+
+<p class="meta-date text-center">19 Jun 2019</p>
+
+<picture><source type="image/webp" srcset="/images/Screenshot-2019-06-19-at-18.45.12-694w.webp 694w"><img src="/images/Screenshot-2019-06-19-at-18.45.12-694w.jpeg" alt="" width="694" height="695"></picture>
+
+<article>
+  <p>A friend was having a bit of a KonMarie moment and decided to remove some of the technology from her life. One item, which she had only just received, was a Joto. This robotic device is a neat spin on a plotter, except it's a vertical whiteboard. Joto can draw on the board and wipe it too.</p><p>What hooked me was its openness. Rudimentary documentation already existed for how to program Joto using gcode, the language of CNC milling devices and 3D printers. Not locking the user into an ecosystem (but providing one anyway) impressed me, so I took it off my friend's hands.</p><p>The device itself isn't perfect. You control it via smartphone, but there's only a drawing app at this time, although a lot more is promised. Also there's an issue with ink drying out. Still, never mind, I wanted to whisper sweet gcode to it.</p><p>A micro-usb socket is provided for programming and provides a serial connection over USB. Once connected you can send gcode line-by-line and Joto will react. I started to tinker.</p><p>Long story short, if you're interested in sending gcode to a Joto, I've come up with some Python 3 scripts to help.</p><p><a href="https://github.com/mrpjevans/send2joto?ref=stowe.local">https://github.com/mrpjevans/send2joto</a></p><p>In this repository is a script to manage transmission of gcode and a few other scripts to produce text. These are very much work-in-progress, so check for updates.</p><p>For a bit more fun, having figured out how to draw numbers by translating gcode from an application intended for CNC milling, I figured out how to draw a sudoku board:</p><p><a href="https://github.com/mrpjevans/sujoku?ref=stowe.local">https://github.com/mrpjevans/sujoku</a></p><p>Here's a speeded up video of it in action:</p><figure class="kg-card kg-embed-card"><iframe width="480" height="270" src="https://www.youtube.com/embed/edH-nDb79gM?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></figure><p>Now, inevitably, I need to get a Raspberry Pi talking to it.</p>
+</article>
 
 
 <div class="row">
   <div class="col-12 mb-3">
     
       
-    
-      
         <a href="/tags/nice" class="badge rounded-pill text-bg-primary">Nice</a>
+      
+    
       
     
   </div>

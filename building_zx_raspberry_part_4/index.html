@@ -64,6 +64,16 @@
     
 
 
+    <h1 class="h1-with-date">Building The ZX Raspberry – Part Four</h1>
+
+<p class="meta-date text-center">17 Feb 2016</p>
+
+<picture><source type="image/webp" srcset="/images/IMG_2442-1-2000w.webp 2000w"><img src="/images/IMG_2442-1-2000w.jpeg" alt="" width="2000" height="1500"></picture>
+
+<article>
+  <p><em>In which our hero is unable to leave well alone</em></p><p>A little epilogue to the <a href="http://mrpjevans.com/2015/12/building-the-zx-raspberry-part-one/?ref=stowe.local">ZX Raspberry project</a>. I came into possession of a very dead ZX Spectrum+ and, following my own personal rule of ‘it gets fixed or it gets modded’, I decided that it was time for a ZX Raspberry+. This project did away with the USB keyboard option, so just a standalone Raspberry Pi-driven unit.</p><figure class="kg-card kg-image-card kg-card-hascaption"><picture><source type="image/webp" srcset="/images/IMG_2442-2000w.webp 2000w"><img src="/images/IMG_2442-2000w.jpeg" class="kg-image" alt="" loading="lazy" width="2000" height="1500"></picture><figcaption>ZX Raspberry+ Innards</figcaption></figure><p>I made a few improvements and discoveries along the way.</p><ol><li>It’s a lot easier to put all this gubbins in a Plus case rather than an original.</li><li>The Raspberry PI + variant (+ or 2) is conveniently sized to place the HDMI and power alongside the expansion port (less cables!).</li><li>The +’s reset switch makes a handy keyboard mode switch.</li><li>A conclusion I reached during the first project was right, I didn’t need the resistors on KB1. Leave them and the power line out, wire the connector directly to the Pro Micro and just set the inputs to INPUT_PULLUP in the Arduino sketch. It does everything for you.</li></ol><p>Finally, I was able to really speed up boot time by using <a href="http://pipaos.mitako.eu/?ref=stowe.local">PipaOS</a> instead of the standard Rasbian distribution. It’s still Raspbian, but optimised for fast bootup and without a lot of the stuff you don’t need anyway. The results on a Raspberry PI 2 with a Class 10 SD card are quite something. Here’s a boot video:</p><!--kg-card-begin: html--><video src="http://stowe.local:2368/static/zxrp_boot.mp4" controls=""></video><!--kg-card-end: html--><p>Just a shade over 10 seconds. Not bad eh?</p>
+</article>
+
 
 <div class="row">
   <div class="col-12 mb-3">

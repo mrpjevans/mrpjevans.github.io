@@ -64,6 +64,78 @@
     
 
 
+    <h1 class="h1-with-date">Building The ZX Raspberry – Part Three</h1>
+
+<p class="meta-date text-center">27 Dec 2015</p>
+
+<picture><source type="image/webp" srcset="/images/IMG_2358-2000w.webp 2000w"><img src="/images/IMG_2358-2000w.jpeg" alt="" width="2000" height="1500"></picture>
+
+<article>
+  <p><em>In which our hero triumphs over excessive wiring</em></p><p>Back in <a href="http://mrpjevans.com/building-the-zx-raspberry-part-two/?ref=stowe.local">Part 2</a>, I completed the USB keyboard conversion of an old, abandoned ZX Spectrum. The next, and final, step is to add in a Raspberry PI so that whole unit can stand alone.</p><p>I’ve now got a working USB keyboard but I’m going for something a bit cleverer than that as I want to not only have an on-board Raspberry Pi but also the ability to use the Speccy as a USB keyboard on any other device (I’ve abandoned the original idea of a bluetooth keyboard as there’s no room for an on-board battery, so what’s the point?). To make both possible I had to design a bit of a wiring loom.</p><figure class="kg-card kg-image-card kg-card-hascaption"><picture><source type="image/webp" srcset="/images/IMG_2333-2000w.webp 2000w"><img src="/images/IMG_2333-2000w.jpeg" class="kg-image" alt="" loading="lazy" width="2000" height="1500"></picture><figcaption>Wires! Everywhere!</figcaption></figure><p>What we have here is a four-pole, double-throw switch (4PDT) that can take the four wires that make up a USB connection. The four central output connections go to the Pro Micro, the two throws connect to an external USB port and to an internal USB plug for the Raspberry PI. You can switch the source of power and data target of the Pro Micro between the internal USB plug for the Raspberry Pi and the external USB connector. If the system is in ‘Raspberry Pi’ mode, the Pro Micro gets its power from the USB port on the Pi. In both cases, a power feed is take from the external USB port to drive the Pi.</p><p>It was a real pain to put together. I bought some cheap short cables from Amazon to provide connectors (I’m no fan of soldering at that level and USB has standardised wiring colours). To make everything fit snugly a lot of things had to be stripped down and re-soldered. It took a couple of attempts to get it right, but the final version tested out ok.</p><p>Having proved everything I now built up the operating system but with the Raspberry Pi connected as a separate device so it was easy to take things in and out. However, it makes more sense to continue talking about the physical build and come back to software later.</p><figure class="kg-card kg-image-card kg-card-hascaption"><picture><source type="image/webp" srcset="/images/IMG_2335-2000w.webp 2000w"><img src="/images/IMG_2335-2000w.jpeg" class="kg-image" alt="" loading="lazy" width="2000" height="1500"></picture><figcaption>Don’t try and configure an advanced OS with a Speccy keyboard</figcaption></figure><p>Brandishing my glue gun, I put the USB mode switch and external connector in place then hooked them up the  Pro Micro. The Raspberry Pi could be stuck into place (using less-permanent sticky pads) being careful to ensure the USB and Ethernet headers would fit in the raised part of the ZX Spectrum’s top cover. I inserted the delicate USB plug into the PI along with a WiFi adaptor (although I built the system up connected directly by Ethernet). Then the power feed from the external USB was hooked up to the Pi.</p><p>The last part of the build was to extend the access to the HDMI port. I had some trouble finding a suitable cable and the one I ended up with was less than ideal, but you can see in the pictures I sourced a 20cm HDMI extender and manipulated it into the case, gluing it down flush with the expansion port aperture. That’s the physical build finished.</p><figure class="kg-card kg-image-card"><picture><source type="image/webp" srcset="/images/IMG_2358-1-2000w.webp 2000w"><img src="/images/IMG_2358-1-2000w.jpeg" class="kg-image" alt="" loading="lazy" width="2000" height="1500"></picture></figure><!--kg-card-begin: markdown--><p>On to the software.</p>
+<p>I used Rasbian Jessie Lite as my operating system. Not only does the ‘Lite’ version have faster boot time, but also does away with the GUI, which I frankly don’t need. There’s lots and lots written on how to get the OS onto a micro SD card and booted on a Pi, so I won’t repeat it here. once the OS is installed, it will boot up and drop you at a login prompt. The username is ‘pi’ and the password is ‘raspberry’.</p>
+<p>You’ll then get a $ prompt for entering commands. Now I know not everyone is 100% happy with the using the command line, so I’ll try and describe what’s going on for the less experienced.</p>
+<p>To get a ZX Spectrum emulator up and running that’s easy to use without a standard keyboard being attached  there’s a few jobs to do. First let’s configure our little friend. Type the following and press Return:</p>
+<pre><code>sudo raspi-config
+</code></pre>
+<!--kg-card-end: markdown--><p>‘Sudo’ kinda means ‘Super User Do’ which in turn means ‘execute this command as root, the most powerful account on the system’. We’ll be using it a lot.</p><p>You’ll see a menu. Choose the first option and follow the prompts to expand the filesystem to use the whole SD card. You’ll need to reboot and log in again. We do this because the Rasbian image only occupies 4GB of your card and by default, it won’t be able to see any further space. This fixes that.</p><p><a href="https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md?ref=stowe.local">Time to configure your WiFi wotsit. Again, there’s a lot already written about this, so I won’t repeat it here.</a></p><p>Now let’s install FUSE, the ZX Spectrum emulator. We do this using Raspian’s built-in package manager. Type the following:</p><!--kg-card-begin: markdown--><pre><code>sudo aptitude selfupdate
+sudo aptitude install fuse-emulator-sdl spectrum-roms fuse-emulator-utils
+</code></pre>
+<p>The first command updates all the sources for software downloads. The next downloads and installs the software we need. You’ll see a lot of stuff scroll by as everything is downloaded and installed. Once finished, you can test it.</p>
+<pre><code>sudo fuse-sdl
+</code></pre>
+<p>Ta da! Bit small? Key F1 and enable Fullscreen. If you’ve got the keyboard membrane on the Speccy wired up, you can now try it out for the first time!</p>
+<p>Once you’ve had a play, exit (F1, Exit). Next we can set the Pi to login automatically, so you don’t have to do it using the ZX keyboard.</p>
+<pre><code>sudo nano /etc/systemd/system/getty.target.wants/getty@tty1.service
+</code></pre>
+<p>You’re now in nano, a simple text editor. Find the section starting [Service] and then the line that reads:</p>
+<pre><code>ExecStart=-/sbin/agetty %I $TERM
+</code></pre>
+<p>…and change it to..</p>
+<pre><code>ExecStart=-/sbin/agetty —noclear -a pi %I $TERM
+</code></pre>
+<p>Then Ctrl+X, followed by y to save. Reboot the system again to test:</p>
+<pre><code>sudo shutdown -r now
+</code></pre>
+<p>When the Pi reboots, you should find yourself automatically logged in.</p>
+<p>Now create a startup script to go straight into FUSE. We’ll call it ‘go’ and place it in the a directory called ‘bin’, of which the system knowns the location of by default.</p>
+<pre><code>mkdir ~/bin
+nano ~/bin/go
+</code></pre>
+<p>When presented with the text editor, enter the following script:</p>
+<pre><code>#!/bin/sh
+if [ -z  &quot;$SSH_CLIENT&quot; ]; then
+
+        kb=$(sudo lsusb -v | grep SparkFun)
+
+        if [ -n &quot;$kb&quot; ]; then
+
+                sudo fuse-sdl
+
+        fi
+
+        sudo shutdown -h now
+
+fi
+</code></pre>
+<p>Here’s what’s going on. The first line checks if the script is being run on the actually console, i.e. not an SSH session. This prevents it trying to start FUSE when you are SSH-ing in. Next it polls the USB controllers to see if the Pro Micro is connected. If so, it starts FUSE, otherwise it initiates immediate shutdown (The flow also means that once the user exits FUSE, the Pi shuts itself down). This is done so that if the ZX Spectrum is being used as a USB keyboard, as opposed to stand-alone, the Pi will spot this and shut itself down, reducing any potential damage to the file system caused by a sudden power-off.</p>
+<p>Ctrl+X, y to exit the editor then type:</p>
+<pre><code>chmod +x ~/bin/go
+</code></pre>
+<p>This makes the script executable. To make it run on login:</p>
+<pre><code>nano ~/.profile
+</code></pre>
+<p>At the end of the file, add</p>
+<pre><code>~/bin/go
+</code></pre>
+<p>Ctrl+X, y again. If you’re unfamiliar with ~, it is a convenient alias to your home directory.</p>
+<p>Now, re-assemble the ZX Spectrum, carefully placing the keyboard membrane ribbons into their connectors.</p>
+<p>Upon booting, the Speccy should go straight into FUSE and give you the classic Speccy boot screen. Press the button the the back  to go into special key mode and then press 1 (now F1) to get the main menu up. Using CAPS SHIFT and the cursor keys with ENTER you can navigate the menus. Exiting FUSE (F1, then Exit) will trigger a system shutdown.</p>
+<p>FUSE has a lot of configuration options. I’ve gone for the full purity mode by disabling the speed-ups so loads happen in real-time. Some may think that’s mad but I see it as all part of the fun. One tip: FUSE only stores settings on the options screen if you hit Return to leave the menu. If you Escape, all changes are lost. You also need to go into options and ‘Save Settings’ so they persist on the next run.</p>
+<p>Our ZX Raspberry feeds on a high-calorie diet of TZX and TAP files. These can be placed wherever you like, although FUSE defaults to your home directory (~) so why not put them there?</p>
+<p>And we’re done. Oh wait, the case itself is looking a little tired. Lets replace the scratched faceplate with one from SellMyRetro (£18) and re-ink the ZX Spectrum legend with an ultra-fine paint pen.</p>
+<!--kg-card-end: markdown--><figure class="kg-card kg-image-card kg-card-hascaption"><picture><source type="image/webp" srcset="/images/IMG_2362-2000w.webp 2000w"><img src="/images/IMG_2362-2000w.jpeg" class="kg-image" alt="" loading="lazy" width="2000" height="1500"></picture><figcaption>Tricky. Very tricky.</figcaption></figure><figure class="kg-card kg-image-card kg-card-hascaption"><picture><source type="image/webp" srcset="/images/IMG_2365-2000w.webp 2000w"><img src="/images/IMG_2365-2000w.jpeg" class="kg-image" alt="" loading="lazy" width="2000" height="1500"></picture><figcaption>Fresh as a 1980s daisy</figcaption></figure><figure class="kg-card kg-image-card kg-card-hascaption"><picture><source type="image/webp" srcset="/images/IMG_2379-2000w.webp 2000w"><img src="/images/IMG_2379-2000w.jpeg" class="kg-image" alt="" loading="lazy" width="2000" height="1500"></picture><figcaption>Rear Connectors and Switches. Snug!</figcaption></figure><!--kg-card-begin: html--><video src="http://stowe.local:2368/static/ZXRasp.mp4" controls=""></video><!--kg-card-end: html--><p>Possible further improvements</p><p>I’d like to get a joystick wired up. There’s space in the expansion slot aperture for a 9-pin connector and I could probably rig it to the Raspberry Pi’s GPIO port.</p><p>Speeding up boot time could be achieved by reducing a lot of services that Raspbian starts that I don’t need. You can even create your own Linux distro for the Pi to create a dedicated OS. Sounds like a fun waste of time to shave a few seconds off the boot. <a href="http://mrpjevans.com/2016/02/building_zx_raspberry_part_4/?ref=stowe.local">Update: See Part 4</a></p><p>Of course, the Raspberry Pi is capable of emulating many other systems. There’s no reason this couldn’t be a Speccy 128, or a NES or a Commodore (if you have a particularly twisted mind).</p><p>I hope you’ve found this series useful. If you have any questions or comments, find me on Twitter – <a href="https://twitter.com/mrpjevans?ref=stowe.local">@mrpjevans</a></p>
+</article>
+
 
 <div class="row">
   <div class="col-12 mb-3">
