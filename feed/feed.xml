@@ -6,421 +6,867 @@
     <atom:link href="https://mrpjevans.com/feed/feed.xml" rel="self" type="application/rss+xml" />
     <description>A blog about stuff</description>
     <language>en</language>
+      
+      
+        
+          
+        
+      
     <item>
-      <title>Why Ten Pairs?</title>
-      <link>https://mrpjevans.com/why-ten-pairs</link>
-      <description>As you may know, the German military made a significant addition to the original Enigma design by adding the plugboard, or steckerbrett. The board has twenty-six sockets, one for every letter in the...</description>
-      <pubDate>Mon, 18 Jun 2012 19:17:00 GMT</pubDate>
+      
+        <title>[🐘] I AM NOT A NaN! I AM A FREE MAN!</title>
+      
+      <link>https://mrpjevans.com/115339945313532305</link>
+      <description>I AM NOT A NaN! I AM A FREE MAN!</description>
+      <pubDate>Wed, 08 Oct 2025 19:24:56 GMT</pubDate>
       <dc:creator>PJ Evans</dc:creator>
-      <guid>https://mrpjevans.com/why-ten-pairs</guid>
+      <guid>https://mrpjevans.com/115339945313532305</guid>
     </item>
+      
+      
+        
+          
+        
+      
     <item>
-      <title>Clear Printable Raspberry Pi Case</title>
-      <link>https://mrpjevans.com/clear-printable-raspberry-pi-case</link>
-      <description>Does your Raspberry Pi need a case? Mine too. I’ve looked at a few options and intend to make a selection. However, my first attempt may well be my favourite. Behold the ‘Raspberry Pi Fold-Up Case’...</description>
-      <pubDate>Wed, 20 Jun 2012 19:21:00 GMT</pubDate>
-      <dc:creator>PJ Evans</dc:creator>
-      <guid>https://mrpjevans.com/clear-printable-raspberry-pi-case</guid>
-    </item>
-    <item>
-      <title>Colossus Cinemagram</title>
-      <link>https://mrpjevans.com/colossus-cinemagram</link>
-      <description></description>
-      <pubDate>Mon, 02 Jul 2012 19:24:00 GMT</pubDate>
-      <dc:creator>PJ Evans</dc:creator>
-      <guid>https://mrpjevans.com/colossus-cinemagram</guid>
-    </item>
-    <item>
-      <title>Papercraft Enigma</title>
-      <link>https://mrpjevans.com/papercraft-enigma</link>
-      <description>This has been doing the rounds on Twitter but I thought I’d show off my own attempt.UK security firm Franklin Heath have put together an Enigma machine made out of paper. This really goes to show that...</description>
-      <pubDate>Mon, 02 Jul 2012 19:25:00 GMT</pubDate>
-      <dc:creator>PJ Evans</dc:creator>
-      <guid>https://mrpjevans.com/papercraft-enigma</guid>
-    </item>
-    <item>
-      <title>RS232 on the Raspberry Pi (to a Psion 5)</title>
-      <link>https://mrpjevans.com/rs232-on-the-raspberry-pi-to-a-psion-5</link>
-      <description>The Raspberry Pi’s General-Purpose Input/Output (GPIO) connector consists of 26 pins that are a hacker’s delight, allowing for some serious analogue and digital tomfoolery. When drooling over the...</description>
-      <pubDate>Wed, 10 Oct 2012 19:36:00 GMT</pubDate>
-      <dc:creator>PJ Evans</dc:creator>
-      <guid>https://mrpjevans.com/rs232-on-the-raspberry-pi-to-a-psion-5</guid>
-    </item>
-    <item>
-      <title>Binatone Pong</title>
-      <link>https://mrpjevans.com/binatone-pong</link>
-      <description>The first computer game I ever owned was this Binatone ‘TV Master MK IV’ – a simple unit that could play the standard Pong variants with a pair of analogue paddles. Yes, it may be simple, but I had...</description>
-      <pubDate>Mon, 28 Apr 2014 15:33:00 GMT</pubDate>
-      <dc:creator>PJ Evans</dc:creator>
-      <guid>https://mrpjevans.com/binatone-pong</guid>
-    </item>
-    <item>
-      <title>Breathing New (Composite) Life Into a Binatone Pong Console</title>
-      <link>https://mrpjevans.com/binatone-composite-mod</link>
-      <description>Pong! What more could a young child want in 1978? Despite my formative years, I was already hooked on my friend’s magic-filled box of delights he described as a ‘TV Game’ (for ‘console’ was a word of...</description>
-      <pubDate>Tue, 13 May 2014 15:27:00 GMT</pubDate>
-      <dc:creator>PJ Evans</dc:creator>
-      <guid>https://mrpjevans.com/binatone-composite-mod</guid>
-    </item>
-    <item>
-      <title>Composite Modding the Atari 2600</title>
-      <link>https://mrpjevans.com/composite-modding-the-atari-2600</link>
-      <description>Buoyed on by my successful project to add a composite video output to a 1976 Pong game, I decided to move to my next target, the Atari 2600. Now, this little beauty needs no introduction, a classic...</description>
-      <pubDate>Mon, 19 May 2014 15:17:00 GMT</pubDate>
-      <dc:creator>PJ Evans</dc:creator>
-      <guid>https://mrpjevans.com/composite-modding-the-atari-2600</guid>
-    </item>
-    <item>
-      <title>So We Bought a Leaf – Our FAQ on owning an Electric Car in the UK</title>
-      <link>https://mrpjevans.com/electric-cars-faq</link>
-      <description>So, you like the sound of going electric, but how does it all work? When Mrs E and I started considering an ‘EV’ (as the cool kids will insist on calling it) we quickly realised we had no idea how the...</description>
-      <pubDate>Wed, 28 May 2014 15:07:00 GMT</pubDate>
-      <dc:creator>PJ Evans</dc:creator>
-      <guid>https://mrpjevans.com/electric-cars-faq</guid>
-    </item>
-    <item>
-      <title>The Imitation Game: Fact and Fiction</title>
-      <link>https://mrpjevans.com/the-imitation-game-fact-and-fiction</link>
-      <description>To many of us in the technical community, the story of Alan Turing is well known; a tragedy of a tortured genius who saved a world that may well have killed him in return. With this new film, the...</description>
-      <pubDate>Thu, 20 Nov 2014 14:05:00 GMT</pubDate>
-      <dc:creator>PJ Evans</dc:creator>
-      <guid>https://mrpjevans.com/the-imitation-game-fact-and-fiction</guid>
-    </item>
-    <item>
-      <title>Restoring a VIC-20</title>
-      <link>https://mrpjevans.com/restoring-a-vic-20</link>
-      <description>I purchased this poor thing last week. After some initial mucking about, life was breathed into it once more. I had a a bit of fun getting the keyboard working but now she’s 100% operational and a...</description>
-      <pubDate>Sun, 29 Mar 2015 15:02:00 GMT</pubDate>
-      <dc:creator>PJ Evans</dc:creator>
-      <guid>https://mrpjevans.com/restoring-a-vic-20</guid>
-    </item>
-    <item>
-      <title>Building The ZX Raspberry – Part One</title>
-      <link>https://mrpjevans.com/building-the-zx-raspberry-part-one</link>
-      <description>In which our hero plans and schemesDespite wanting to convert a ZX Spectrum into a USB keyboard for some time, I held off to wait for the unlikely duo of the ZX Spectrum Vega and the Recreated ZX...</description>
-      <pubDate>Tue, 08 Dec 2015 13:55:00 GMT</pubDate>
-      <dc:creator>PJ Evans</dc:creator>
-      <guid>https://mrpjevans.com/building-the-zx-raspberry-part-one</guid>
-    </item>
-    <item>
-      <title>Building The ZX Raspberry – Part Two</title>
-      <link>https://mrpjevans.com/building-the-zx-raspberry-part-two</link>
-      <description>In which our hero enters the (keyboard) matrix…Ok, time to burn stuff. After hatching a plan in Part One, I’m now ready to proceed with my Frankenspeccy. But first, some more planning – what am I...</description>
-      <pubDate>Tue, 15 Dec 2015 13:48:00 GMT</pubDate>
-      <dc:creator>PJ Evans</dc:creator>
-      <guid>https://mrpjevans.com/building-the-zx-raspberry-part-two</guid>
-    </item>
-    <item>
-      <title>Building The ZX Raspberry – Part Three</title>
-      <link>https://mrpjevans.com/building-the-zx-raspberry-part-three</link>
-      <description>In which our hero triumphs over excessive wiringBack in Part 2, I completed the USB keyboard conversion of an old, abandoned ZX Spectrum. The next, and final, step is to add in a Raspberry PI so that...</description>
-      <pubDate>Sun, 27 Dec 2015 13:37:00 GMT</pubDate>
-      <dc:creator>PJ Evans</dc:creator>
-      <guid>https://mrpjevans.com/building-the-zx-raspberry-part-three</guid>
-    </item>
-    <item>
-      <title>BBC Micro Model B Memory Repair</title>
-      <link>https://mrpjevans.com/bbc-micro-model-b-memory-repair</link>
-      <description>So, what do you do when your BBC Model B looks like this?Oh dear…You throw it in the skip of course!Nah, just kidding, you Google like a mad thing. What you learn is that screen corruption like this...</description>
-      <pubDate>Thu, 14 Jan 2016 13:20:00 GMT</pubDate>
-      <dc:creator>PJ Evans</dc:creator>
-      <guid>https://mrpjevans.com/bbc-micro-model-b-memory-repair</guid>
-    </item>
-    <item>
-      <title>Building The ZX Raspberry – Part Four</title>
-      <link>https://mrpjevans.com/building_zx_raspberry_part_4</link>
-      <description>In which our hero is unable to leave well aloneA little epilogue to the ZX Raspberry project. I came into possession of a very dead ZX Spectrum+ and, following my own personal rule of ‘it gets fixed...</description>
-      <pubDate>Wed, 17 Feb 2016 13:17:00 GMT</pubDate>
-      <dc:creator>PJ Evans</dc:creator>
-      <guid>https://mrpjevans.com/building_zx_raspberry_part_4</guid>
-    </item>
-    <item>
-      <title>EMF Camp 2016 IN 3D</title>
-      <link>https://mrpjevans.com/emf-camp-2016-in-3d</link>
-      <description>EMF Camp is a bi-annual gathering of creatives, geeks, makers and anyone with a passion for, well, anything. Over three days in a Guildford field we attended (and gave) talks, learnt new skills in...</description>
-      <pubDate>Fri, 12 Aug 2016 14:10:00 GMT</pubDate>
-      <dc:creator>PJ Evans</dc:creator>
-      <guid>https://mrpjevans.com/emf-camp-2016-in-3d</guid>
-    </item>
-    <item>
-      <title>An Atari 2600 in a Cartridge</title>
-      <link>https://mrpjevans.com/an-atari-2600-in-a-cartridge</link>
-      <description>You know when you’re having that long-overdue clean-out and you find a few things stashed away you’d forgotten about? From when you said “that’ll make a great project one day” then tossed it in your...</description>
-      <pubDate>Sat, 24 Jun 2017 13:54:00 GMT</pubDate>
-      <dc:creator>PJ Evans</dc:creator>
-      <guid>https://mrpjevans.com/an-atari-2600-in-a-cartridge</guid>
-    </item>
-    <item>
-      <title>ZX Raspberry Version 2</title>
-      <link>https://mrpjevans.com/zx-raspberry-version-2</link>
-      <description>In which our hero downsizes radicallyA couple of months ago we held the first in the ‘regeneration’ of the Milton Keynes Raspberry Jam. I took along my ZX Raspberry for all to see and wonder over. One...</description>
-      <pubDate>Wed, 27 Sep 2017 13:48:00 GMT</pubDate>
-      <dc:creator>PJ Evans</dc:creator>
-      <guid>https://mrpjevans.com/zx-raspberry-version-2</guid>
-    </item>
-    <item>
-      <title>Re-Capping a ZX Spectrum</title>
-      <link>https://mrpjevans.com/re-capping-a-zx-spectrum</link>
-      <description>ZX Spectrums tend to suffer from two major problems. The earlier keyboard membranes were made from the finest Japanese rice paper and would shatter into a million pieces should a flea with a penchant...</description>
-      <pubDate>Sun, 29 Oct 2017 12:41:00 GMT</pubDate>
-      <dc:creator>PJ Evans</dc:creator>
-      <guid>https://mrpjevans.com/re-capping-a-zx-spectrum</guid>
-    </item>
-    <item>
-      <title>Raspberry Pi + iPad Screen + iCade = Bartop</title>
-      <link>https://mrpjevans.com/raspberry-pi-icade</link>
-      <description>WAKKA WAKKA WAKKAWay back when, I bought an iCade. This bartop-style arcade machine was actually a very pretty bluetooth controller. Simply slot your first-generation iPad into the ‘screen’ and pair....</description>
-      <pubDate>Tue, 05 Dec 2017 12:25:00 GMT</pubDate>
-      <dc:creator>PJ Evans</dc:creator>
-      <guid>https://mrpjevans.com/raspberry-pi-icade</guid>
-    </item>
-    <item>
-      <title>The Great Digital Race (or ‘A 15-second Fib’)</title>
-      <link>https://mrpjevans.com/the-great-digital-race-or-a-15-second-fib</link>
-      <description>Connie 1, WITCH 0You can keep your Winter Olympics with all it’s competitive falling and sliding. The real action was last Saturday at The National Museum of Computing where you could witness the...</description>
-      <pubDate>Tue, 20 Feb 2018 12:03:00 GMT</pubDate>
-      <dc:creator>PJ Evans</dc:creator>
-      <guid>https://mrpjevans.com/the-great-digital-race-or-a-15-second-fib</guid>
-    </item>
-    <item>
-      <title>Do You Want To Build a Strandbeest?</title>
-      <link>https://mrpjevans.com/do-you-want-to-build-a-strandbeest</link>
-      <description>A time-lapse showing the construction of Just Add Sharks‘ Mini Strandbeest kit which I picked up at EMF Camp 2016. It’s a great kit and took about 90 minutes to put together.And here’s the result...</description>
-      <pubDate>Wed, 25 Apr 2018 14:05:00 GMT</pubDate>
-      <dc:creator>PJ Evans</dc:creator>
-      <guid>https://mrpjevans.com/do-you-want-to-build-a-strandbeest</guid>
-    </item>
-    <item>
-      <title>So, we bought a LEAF - Four Years On</title>
-      <link>https://mrpjevans.com/so-we-bought-a-leaf-four-years-on</link>
-      <description>New Toy! New Toy!It has come as a bit of a surprise to me that the most popular post on this ‘ere site has been my original guide to owning an electric car in the UK. Mind you, when I think back to...</description>
-      <pubDate>Tue, 29 May 2018 12:53:00 GMT</pubDate>
-      <dc:creator>PJ Evans</dc:creator>
-      <guid>https://mrpjevans.com/so-we-bought-a-leaf-four-years-on</guid>
-    </item>
-    <item>
-      <title>MagPi #76</title>
-      <link>https://mrpjevans.com/magpi-76</link>
-      <description>The rather wonderful MagPi issue 76 is out today. In this issue I&#39;m turning up twice. First as part of the SuperGuide with a look at the Raspberry Pi Desktop and how to use it, along with some...</description>
-      <pubDate>Thu, 29 Nov 2018 11:02:15 GMT</pubDate>
-      <dc:creator>PJ Evans</dc:creator>
-      <guid>https://mrpjevans.com/magpi-76</guid>
-    </item>
-    <item>
-      <title>MagPi #77</title>
-      <link>https://mrpjevans.com/magpi-77</link>
-      <description>In this month&#39;s MagPi I do unspeakable things to my front door as part of an ongoing SmartDoor project (more on that soon at this very &#39;ere blog). Also, I review the beautiful PiDP-11 kit. Available...</description>
-      <pubDate>Sat, 22 Dec 2018 18:34:44 GMT</pubDate>
-      <dc:creator>PJ Evans</dc:creator>
-      <guid>https://mrpjevans.com/magpi-77</guid>
-    </item>
-    <item>
-      <title>Joto - The Internet of Whiteboards</title>
-      <link>https://mrpjevans.com/joto-the-internet-of-whiteboards</link>
-      <description>A friend was having a bit of a KonMarie moment and decided to remove some of the technology from her life. One item, which she had only just received, was a Joto. This robotic device is a neat spin on...</description>
-      <pubDate>Wed, 19 Jun 2019 18:47:32 GMT</pubDate>
-      <dc:creator>PJ Evans</dc:creator>
-      <guid>https://mrpjevans.com/joto-the-internet-of-whiteboards</guid>
-    </item>
-    <item>
-      <title>What&#39;s The (Decimal) Point?</title>
-      <link>https://mrpjevans.com/whats-the-point</link>
-      <description>A cautionary tale of a bug that wasn’t (yet was) I’m currently working with a team helping an industrial textile manufacturer based in Lyon, France. Part of the job is working with a CSV file (isn’t...</description>
-      <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
-      <dc:creator>PJ Evans</dc:creator>
-      <guid>https://mrpjevans.com/whats-the-point</guid>
-    </item>
-    <item>
-      <title>Whatever</title>
-      <link>https://mrpjevans.com/whatever</link>
-      <description>Spotted at Smokeworks in Cambridge, UK</description>
-      <pubDate>Fri, 09 Feb 2024 00:00:00 GMT</pubDate>
-      <dc:creator>PJ Evans</dc:creator>
-      <guid>https://mrpjevans.com/whatever</guid>
-    </item>
-    <item>
-      <title>Retro Gaming With Raspberry Pi 3rd Edition</title>
-      <link>https://mrpjevans.com/retro-gaming-with-raspberry-pi-3rd-edition</link>
-      <description>Just out is the third edition of Retro Gaming With Raspberry Pi. This 170+ page tome tell you everything you need to know about bringing the old games back to life. There&#39;s so much more than &#39;download...</description>
-      <pubDate>Mon, 12 Feb 2024 00:00:00 GMT</pubDate>
-      <dc:creator>PJ Evans</dc:creator>
-      <guid>https://mrpjevans.com/retro-gaming-with-raspberry-pi-3rd-edition</guid>
-    </item>
-    <item>
-      <title>Much secure very secrets</title>
-      <link>https://mrpjevans.com/much-secure-very-secrets</link>
-      <description>Yes. Very secure. Well done you.</description>
-      <pubDate>Fri, 16 Feb 2024 00:00:00 GMT</pubDate>
-      <dc:creator>PJ Evans</dc:creator>
-      <guid>https://mrpjevans.com/much-secure-very-secrets</guid>
-    </item>
-    <item>
-      <title>The MagPi Issue 139</title>
-      <link>https://mrpjevans.com/the-magpi-issue-139</link>
-      <description>The MagPi issue 139 is now available, specially release to coincide with Raspberry Pi&#39;s third birthday. (That&#39;s right, third, Raspberry Pi is a leap-year baby!)I&#39;ve been busy in this one. Firstly the...</description>
-      <pubDate>Thu, 29 Feb 2024 00:00:00 GMT</pubDate>
-      <dc:creator>PJ Evans</dc:creator>
-      <guid>https://mrpjevans.com/the-magpi-issue-139</guid>
-    </item>
-    <item>
-      <title>Raspberry Pi and NVMe SSD Not Working?</title>
-      <link>https://mrpjevans.com/raspberry-pi-and-nvme-ssd-not-working</link>
-      <description>With the arrival of Raspberry Pi 5 it&#39;s a brave new world for my favourite little computer. The new shiny PCI-Express header allows super-duper-fast peripherals to bypass the bottleneck that is USB....</description>
-      <pubDate>Wed, 13 Mar 2024 00:00:00 GMT</pubDate>
-      <dc:creator>PJ Evans</dc:creator>
-      <guid>https://mrpjevans.com/raspberry-pi-and-nvme-ssd-not-working</guid>
-    </item>
-    <item>
-      <title>The MagPi Issue 140</title>
-      <link>https://mrpjevans.com/the-magpi-issue-140</link>
-      <description>The latest version of The MagPi is now available in all good booksellers (and probably some bad ones too). In this issue I cover the basics of learning to code. This can often be a intimidating...</description>
-      <pubDate>Mon, 15 Apr 2024 01:00:00 GMT</pubDate>
-      <dc:creator>PJ Evans</dc:creator>
-      <guid>https://mrpjevans.com/the-magpi-issue-140</guid>
-    </item>
-    <item>
-      <title>The MagPi Issue 141</title>
-      <link>https://mrpjevans.com/the-magpi-issue-141</link>
-      <description>In the latest MagPi - Issue #141 - I have a chat with Oscar Vermeulen who has just launched his PiDP-10 kit, the latest in a series of Raspberry Pi-based DEC computer recreations. This is his most...</description>
-      <pubDate>Fri, 26 Apr 2024 01:00:00 GMT</pubDate>
-      <dc:creator>PJ Evans</dc:creator>
-      <guid>https://mrpjevans.com/the-magpi-issue-141</guid>
-    </item>
-    <item>
-      <title>The MagPi Issue 144</title>
-      <link>https://mrpjevans.com/the-magpi-issue-144</link>
-      <description>It&#39;s The MagPi issue #144! This is the start of a new series on taking back control of your infrastructure and build you own personal private cloud server. Over the coming months we&#39;ll take a deep...</description>
-      <pubDate>Thu, 25 Jul 2024 01:00:00 GMT</pubDate>
-      <dc:creator>PJ Evans</dc:creator>
-      <guid>https://mrpjevans.com/the-magpi-issue-144</guid>
-    </item>
-    <item>
-      <title>The MagPi Issue 145</title>
-      <link>https://mrpjevans.com/the-magpi-issue-145</link>
-      <description>This month I continue my series on building the ultimate private cloud server. Now we have file storage with the help of OpenMediaVault, we now explore how you can access files from anywhere in the...</description>
-      <pubDate>Sun, 25 Aug 2024 01:00:00 GMT</pubDate>
-      <dc:creator>PJ Evans</dc:creator>
-      <guid>https://mrpjevans.com/the-magpi-issue-145</guid>
-    </item>
-    <item>
-      <title>Look At Those Curves</title>
-      <link>https://mrpjevans.com/look-at-those-curves</link>
-      <description>It’s been an amazing few days for solar</description>
-      <pubDate>Fri, 02 May 2025 01:00:00 GMT</pubDate>
-      <dc:creator>PJ Evans</dc:creator>
-      <guid>https://mrpjevans.com/look-at-those-curves</guid>
-    </item>
-    <item>
-      <title>115163116580802872</title>
-      <link>https://mrpjevans.com/115163116580802872</link>
-      <description>Watched F1 The Movie last night. Oh dear, oh dear… If you want to watch a good racing movie, try Rush or Le Mans ‘66.</description>
-      <pubDate>Sun, 07 Sep 2025 13:55:03 GMT</pubDate>
-      <dc:creator>PJ Evans</dc:creator>
-      <guid>https://mrpjevans.com/115163116580802872</guid>
-    </item>
-    <item>
-      <title>myNoise</title>
-      <link>https://mrpjevans.com/mynoise</link>
-      <description>https://mynoise.netA wonderful place that dynamically creates background noise. The level of control is incredible. An ambient must.</description>
-      <pubDate>Mon, 08 Sep 2025 09:09:47 GMT</pubDate>
-      <dc:creator>PJ Evans</dc:creator>
-      <guid>https://mrpjevans.com/mynoise</guid>
-    </item>
-    <item>
-      <title>115170848067249440</title>
-      <link>https://mrpjevans.com/115170848067249440</link>
-      <description>We continue to create critical infrastructure on a house of cards… https://www.bleepingcomputer.com/news/security/hackers-hijack-npm-packages-with-2-billion-weekly-downloads-in-supply-chain-attack/</description>
-      <pubDate>Mon, 08 Sep 2025 22:41:16 GMT</pubDate>
-      <dc:creator>PJ Evans</dc:creator>
-      <guid>https://mrpjevans.com/115170848067249440</guid>
-    </item>
-    <item>
-      <title>WebGL Fluid Simulation</title>
-      <link>https://mrpjevans.com/webgl-fluid-simulation</link>
-      <description>https://paveldogreat.github.io/WebGL-Fluid-Simulation/How beautiful is this? And in a browser! I could lose hours and probably will.</description>
-      <pubDate>Wed, 10 Sep 2025 22:01:23 GMT</pubDate>
-      <dc:creator>PJ Evans</dc:creator>
-      <guid>https://mrpjevans.com/webgl-fluid-simulation</guid>
-    </item>
-    <item>
-      <title>115196674805013333</title>
-      <link>https://mrpjevans.com/115196674805013333</link>
-      <description>Son went to see Coldplay last night, so I now own a xyloband. :)</description>
-      <pubDate>Sat, 13 Sep 2025 12:09:21 GMT</pubDate>
-      <dc:creator>PJ Evans</dc:creator>
-      <guid>https://mrpjevans.com/115196674805013333</guid>
-    </item>
-    <item>
-      <title>115220524932343285</title>
-      <link>https://mrpjevans.com/115220524932343285</link>
-      <description>If you’re suffering trying to read this Liquid Glass silliness, you can make notifications opaque in Settings, Accessibility, Reduce Transparency.</description>
-      <pubDate>Wed, 17 Sep 2025 17:14:45 GMT</pubDate>
-      <dc:creator>PJ Evans</dc:creator>
-      <guid>https://mrpjevans.com/115220524932343285</guid>
-    </item>
-    <item>
-      <title>115258747259337026</title>
-      <link>https://mrpjevans.com/115258747259337026</link>
-      <description>I’m at a conference at Google HQ London today. Whatever you think of them you can’t deny they’re good at post-it art.</description>
-      <pubDate>Wed, 24 Sep 2025 11:15:12 GMT</pubDate>
-      <dc:creator>PJ Evans</dc:creator>
-      <guid>https://mrpjevans.com/115258747259337026</guid>
-    </item>
-    <item>
-      <title>115259201375328668</title>
-      <link>https://mrpjevans.com/115259201375328668</link>
-      <description>Protein pills only please</description>
-      <pubDate>Wed, 24 Sep 2025 13:10:41 GMT</pubDate>
-      <dc:creator>PJ Evans</dc:creator>
-      <guid>https://mrpjevans.com/115259201375328668</guid>
-    </item>
-    <item>
-      <title>115260062456986304</title>
-      <link>https://mrpjevans.com/115260062456986304</link>
-      <description>I want to play the world’s widest game of Pong on this screen.</description>
-      <pubDate>Wed, 24 Sep 2025 16:49:40 GMT</pubDate>
-      <dc:creator>PJ Evans</dc:creator>
-      <guid>https://mrpjevans.com/115260062456986304</guid>
-    </item>
-    <item>
-      <title>115281983693681099</title>
-      <link>https://mrpjevans.com/115281983693681099</link>
-      <description>Grab your popcorn and turn your pager to silent, the film is about to start… @hackers #HackThePlanet</description>
-      <pubDate>Sun, 28 Sep 2025 13:44:31 GMT</pubDate>
-      <dc:creator>PJ Evans</dc:creator>
-      <guid>https://mrpjevans.com/115281983693681099</guid>
-    </item>
-    <item>
-      <title>115318191280919536</title>
-      <link>https://mrpjevans.com/115318191280919536</link>
-      <description>The Doofus has retired to her box for #Caturday</description>
-      <pubDate>Sat, 04 Oct 2025 23:12:35 GMT</pubDate>
-      <dc:creator>PJ Evans</dc:creator>
-      <guid>https://mrpjevans.com/115318191280919536</guid>
-    </item>
-    <item>
-      <title>The Oatmeal on AI Art</title>
-      <link>https://mrpjevans.com/the-oatmeal-on-ai-art</link>
-      <description>https://theoatmeal.com/comics/ai_artA true opus from The Oatmeal. I think that was the point.</description>
-      <pubDate>Tue, 07 Oct 2025 17:49:30 GMT</pubDate>
-      <dc:creator>PJ Evans</dc:creator>
-      <guid>https://mrpjevans.com/the-oatmeal-on-ai-art</guid>
-    </item>
-    <item>
-      <title>115338061903593066</title>
+      
+        <title>[🐘] Take my job! I&#39;m leaving my current position in...</title>
+      
       <link>https://mrpjevans.com/115338061903593066</link>
       <description>Take my job! I&#39;m leaving my current position in November and Kingfisher (B&amp;amp;Q, Screwfix) are looking for my replacement. Want a challenge working in EPOS as a Principal Engineer? Need some JS...</description>
       <pubDate>Wed, 08 Oct 2025 11:25:57 GMT</pubDate>
       <dc:creator>PJ Evans</dc:creator>
       <guid>https://mrpjevans.com/115338061903593066</guid>
     </item>
+      
+      
+        
+      
     <item>
-      <title>115339945313532305</title>
-      <link>https://mrpjevans.com/115339945313532305</link>
-      <description>I AM A FREE MAN!</description>
-      <pubDate>Wed, 08 Oct 2025 19:24:56 GMT</pubDate>
+      
+        <title>The Oatmeal on AI Art</title>
+      
+      <link>https://mrpjevans.com/the-oatmeal-on-ai-art</link>
+      <description>https://theoatmeal.com/comics/ai_artA true opus from The Oatmeal. I think that was the point.</description>
+      <pubDate>Tue, 07 Oct 2025 17:49:30 GMT</pubDate>
       <dc:creator>PJ Evans</dc:creator>
-      <guid>https://mrpjevans.com/115339945313532305</guid>
+      <guid>https://mrpjevans.com/the-oatmeal-on-ai-art</guid>
+    </item>
+      
+      
+        
+          
+        
+      
+    <item>
+      
+        <title>[🐘] The Doofus has retired to her box for #Caturday</title>
+      
+      <link>https://mrpjevans.com/115318191280919536</link>
+      <description>The Doofus has retired to her box for #Caturday</description>
+      <pubDate>Sat, 04 Oct 2025 23:12:35 GMT</pubDate>
+      <dc:creator>PJ Evans</dc:creator>
+      <guid>https://mrpjevans.com/115318191280919536</guid>
+    </item>
+      
+      
+        
+          
+        
+      
+    <item>
+      
+        <title>[🐘] Grab your popcorn and turn your pager to silent,...</title>
+      
+      <link>https://mrpjevans.com/115281983693681099</link>
+      <description>Grab your popcorn and turn your pager to silent, the film is about to start… @hackers #HackThePlanet</description>
+      <pubDate>Sun, 28 Sep 2025 13:44:31 GMT</pubDate>
+      <dc:creator>PJ Evans</dc:creator>
+      <guid>https://mrpjevans.com/115281983693681099</guid>
+    </item>
+      
+      
+        
+          
+        
+      
+    <item>
+      
+        <title>[🐘] I want to play the world’s widest game of Pong on...</title>
+      
+      <link>https://mrpjevans.com/115260062456986304</link>
+      <description>I want to play the world’s widest game of Pong on this screen.</description>
+      <pubDate>Wed, 24 Sep 2025 16:49:40 GMT</pubDate>
+      <dc:creator>PJ Evans</dc:creator>
+      <guid>https://mrpjevans.com/115260062456986304</guid>
+    </item>
+      
+      
+        
+          
+        
+      
+    <item>
+      
+        <title>[🐘] Protein pills only please</title>
+      
+      <link>https://mrpjevans.com/115259201375328668</link>
+      <description>Protein pills only please</description>
+      <pubDate>Wed, 24 Sep 2025 13:10:41 GMT</pubDate>
+      <dc:creator>PJ Evans</dc:creator>
+      <guid>https://mrpjevans.com/115259201375328668</guid>
+    </item>
+      
+      
+        
+          
+        
+      
+    <item>
+      
+        <title>[🐘] I’m at a conference at Google HQ London today....</title>
+      
+      <link>https://mrpjevans.com/115258747259337026</link>
+      <description>I’m at a conference at Google HQ London today. Whatever you think of them you can’t deny they’re good at post-it art.</description>
+      <pubDate>Wed, 24 Sep 2025 11:15:12 GMT</pubDate>
+      <dc:creator>PJ Evans</dc:creator>
+      <guid>https://mrpjevans.com/115258747259337026</guid>
+    </item>
+      
+      
+        
+          
+        
+      
+    <item>
+      
+        <title>[🐘] If you’re suffering trying to read this Liquid...</title>
+      
+      <link>https://mrpjevans.com/115220524932343285</link>
+      <description>If you’re suffering trying to read this Liquid Glass silliness, you can make notifications opaque in Settings, Accessibility, Reduce Transparency.</description>
+      <pubDate>Wed, 17 Sep 2025 17:14:45 GMT</pubDate>
+      <dc:creator>PJ Evans</dc:creator>
+      <guid>https://mrpjevans.com/115220524932343285</guid>
+    </item>
+      
+      
+        
+          
+        
+      
+    <item>
+      
+        <title>[🐘] Son went to see Coldplay last night, so I now own...</title>
+      
+      <link>https://mrpjevans.com/115196674805013333</link>
+      <description>Son went to see Coldplay last night, so I now own a xyloband. :)</description>
+      <pubDate>Sat, 13 Sep 2025 12:09:21 GMT</pubDate>
+      <dc:creator>PJ Evans</dc:creator>
+      <guid>https://mrpjevans.com/115196674805013333</guid>
+    </item>
+      
+      
+        
+      
+    <item>
+      
+        <title>WebGL Fluid Simulation</title>
+      
+      <link>https://mrpjevans.com/webgl-fluid-simulation</link>
+      <description>https://paveldogreat.github.io/WebGL-Fluid-Simulation/How beautiful is this? And in a browser! I could lose hours and probably will.</description>
+      <pubDate>Wed, 10 Sep 2025 22:01:23 GMT</pubDate>
+      <dc:creator>PJ Evans</dc:creator>
+      <guid>https://mrpjevans.com/webgl-fluid-simulation</guid>
+    </item>
+      
+      
+        
+          
+        
+      
+    <item>
+      
+        <title>[🐘] We continue to create critical infrastructure on a...</title>
+      
+      <link>https://mrpjevans.com/115170848067249440</link>
+      <description>We continue to create critical infrastructure on a house of cards… https://www.bleepingcomputer.com/news/security/hackers-hijack-npm-packages-with-2-billion-weekly-downloads-in-supply-chain-attack/</description>
+      <pubDate>Mon, 08 Sep 2025 22:41:16 GMT</pubDate>
+      <dc:creator>PJ Evans</dc:creator>
+      <guid>https://mrpjevans.com/115170848067249440</guid>
+    </item>
+      
+      
+        
+      
+        
+      
+    <item>
+      
+        <title>myNoise</title>
+      
+      <link>https://mrpjevans.com/mynoise</link>
+      <description>https://mynoise.netA wonderful place that dynamically creates background noise. The level of control is incredible. An ambient must.</description>
+      <pubDate>Mon, 08 Sep 2025 09:09:47 GMT</pubDate>
+      <dc:creator>PJ Evans</dc:creator>
+      <guid>https://mrpjevans.com/mynoise</guid>
+    </item>
+      
+      
+        
+          
+        
+      
+    <item>
+      
+        <title>[🐘] Watched F1 The Movie last night. Oh dear, oh dear…...</title>
+      
+      <link>https://mrpjevans.com/115163116580802872</link>
+      <description>Watched F1 The Movie last night. Oh dear, oh dear… If you want to watch a good racing movie, try Rush or Le Mans ‘66.</description>
+      <pubDate>Sun, 07 Sep 2025 13:55:03 GMT</pubDate>
+      <dc:creator>PJ Evans</dc:creator>
+      <guid>https://mrpjevans.com/115163116580802872</guid>
+    </item>
+      
+      
+        
+      
+        
+      
+    <item>
+      
+        <title>Look At Those Curves</title>
+      
+      <link>https://mrpjevans.com/look-at-those-curves</link>
+      <description>It’s been an amazing few days for solar</description>
+      <pubDate>Fri, 02 May 2025 01:00:00 GMT</pubDate>
+      <dc:creator>PJ Evans</dc:creator>
+      <guid>https://mrpjevans.com/look-at-those-curves</guid>
+    </item>
+      
+      
+        
+      
+        
+      
+    <item>
+      
+        <title>The MagPi Issue 145</title>
+      
+      <link>https://mrpjevans.com/the-magpi-issue-145</link>
+      <description>This month I continue my series on building the ultimate private cloud server. Now we have file storage with the help of OpenMediaVault, we now explore how you can access files from anywhere in the...</description>
+      <pubDate>Sun, 25 Aug 2024 01:00:00 GMT</pubDate>
+      <dc:creator>PJ Evans</dc:creator>
+      <guid>https://mrpjevans.com/the-magpi-issue-145</guid>
+    </item>
+      
+      
+        
+      
+        
+      
+    <item>
+      
+        <title>The MagPi Issue 144</title>
+      
+      <link>https://mrpjevans.com/the-magpi-issue-144</link>
+      <description>It&#39;s The MagPi issue #144! This is the start of a new series on taking back control of your infrastructure and build you own personal private cloud server. Over the coming months we&#39;ll take a deep...</description>
+      <pubDate>Thu, 25 Jul 2024 01:00:00 GMT</pubDate>
+      <dc:creator>PJ Evans</dc:creator>
+      <guid>https://mrpjevans.com/the-magpi-issue-144</guid>
+    </item>
+      
+      
+        
+      
+        
+      
+    <item>
+      
+        <title>The MagPi Issue 141</title>
+      
+      <link>https://mrpjevans.com/the-magpi-issue-141</link>
+      <description>In the latest MagPi - Issue #141 - I have a chat with Oscar Vermeulen who has just launched his PiDP-10 kit, the latest in a series of Raspberry Pi-based DEC computer recreations. This is his most...</description>
+      <pubDate>Fri, 26 Apr 2024 01:00:00 GMT</pubDate>
+      <dc:creator>PJ Evans</dc:creator>
+      <guid>https://mrpjevans.com/the-magpi-issue-141</guid>
+    </item>
+      
+      
+        
+      
+        
+      
+    <item>
+      
+        <title>The MagPi Issue 140</title>
+      
+      <link>https://mrpjevans.com/the-magpi-issue-140</link>
+      <description>The latest version of The MagPi is now available in all good booksellers (and probably some bad ones too). In this issue I cover the basics of learning to code. This can often be a intimidating...</description>
+      <pubDate>Mon, 15 Apr 2024 01:00:00 GMT</pubDate>
+      <dc:creator>PJ Evans</dc:creator>
+      <guid>https://mrpjevans.com/the-magpi-issue-140</guid>
+    </item>
+      
+      
+        
+      
+        
+      
+    <item>
+      
+        <title>Raspberry Pi and NVMe SSD Not Working?</title>
+      
+      <link>https://mrpjevans.com/raspberry-pi-and-nvme-ssd-not-working</link>
+      <description>With the arrival of Raspberry Pi 5 it&#39;s a brave new world for my favourite little computer. The new shiny PCI-Express header allows super-duper-fast peripherals to bypass the bottleneck that is USB....</description>
+      <pubDate>Wed, 13 Mar 2024 00:00:00 GMT</pubDate>
+      <dc:creator>PJ Evans</dc:creator>
+      <guid>https://mrpjevans.com/raspberry-pi-and-nvme-ssd-not-working</guid>
+    </item>
+      
+      
+        
+      
+        
+      
+    <item>
+      
+        <title>The MagPi Issue 139</title>
+      
+      <link>https://mrpjevans.com/the-magpi-issue-139</link>
+      <description>The MagPi issue 139 is now available, specially release to coincide with Raspberry Pi&#39;s third birthday. (That&#39;s right, third, Raspberry Pi is a leap-year baby!)I&#39;ve been busy in this one. Firstly the...</description>
+      <pubDate>Thu, 29 Feb 2024 00:00:00 GMT</pubDate>
+      <dc:creator>PJ Evans</dc:creator>
+      <guid>https://mrpjevans.com/the-magpi-issue-139</guid>
+    </item>
+      
+      
+        
+      
+        
+      
+    <item>
+      
+        <title>Much secure very secrets</title>
+      
+      <link>https://mrpjevans.com/much-secure-very-secrets</link>
+      <description>Yes. Very secure. Well done you.</description>
+      <pubDate>Fri, 16 Feb 2024 00:00:00 GMT</pubDate>
+      <dc:creator>PJ Evans</dc:creator>
+      <guid>https://mrpjevans.com/much-secure-very-secrets</guid>
+    </item>
+      
+      
+        
+      
+        
+      
+        
+      
+    <item>
+      
+        <title>Retro Gaming With Raspberry Pi 3rd Edition</title>
+      
+      <link>https://mrpjevans.com/retro-gaming-with-raspberry-pi-3rd-edition</link>
+      <description>Just out is the third edition of Retro Gaming With Raspberry Pi. This 170+ page tome tell you everything you need to know about bringing the old games back to life. There&#39;s so much more than &#39;download...</description>
+      <pubDate>Mon, 12 Feb 2024 00:00:00 GMT</pubDate>
+      <dc:creator>PJ Evans</dc:creator>
+      <guid>https://mrpjevans.com/retro-gaming-with-raspberry-pi-3rd-edition</guid>
+    </item>
+      
+      
+        
+      
+        
+      
+    <item>
+      
+        <title>Whatever</title>
+      
+      <link>https://mrpjevans.com/whatever</link>
+      <description>Spotted at Smokeworks in Cambridge, UK</description>
+      <pubDate>Fri, 09 Feb 2024 00:00:00 GMT</pubDate>
+      <dc:creator>PJ Evans</dc:creator>
+      <guid>https://mrpjevans.com/whatever</guid>
+    </item>
+      
+      
+        
+      
+        
+      
+    <item>
+      
+        <title>What&#39;s The (Decimal) Point?</title>
+      
+      <link>https://mrpjevans.com/whats-the-point</link>
+      <description>A cautionary tale of a bug that wasn’t (yet was) I’m currently working with a team helping an industrial textile manufacturer based in Lyon, France. Part of the job is working with a CSV file (isn’t...</description>
+      <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
+      <dc:creator>PJ Evans</dc:creator>
+      <guid>https://mrpjevans.com/whats-the-point</guid>
+    </item>
+      
+      
+        
+      
+        
+      
+    <item>
+      
+        <title>Joto - The Internet of Whiteboards</title>
+      
+      <link>https://mrpjevans.com/joto-the-internet-of-whiteboards</link>
+      <description>A friend was having a bit of a KonMarie moment and decided to remove some of the technology from her life. One item, which she had only just received, was a Joto. This robotic device is a neat spin on...</description>
+      <pubDate>Wed, 19 Jun 2019 18:47:32 GMT</pubDate>
+      <dc:creator>PJ Evans</dc:creator>
+      <guid>https://mrpjevans.com/joto-the-internet-of-whiteboards</guid>
+    </item>
+      
+      
+        
+      
+        
+      
+    <item>
+      
+        <title>MagPi #77</title>
+      
+      <link>https://mrpjevans.com/magpi-77</link>
+      <description>In this month&#39;s MagPi I do unspeakable things to my front door as part of an ongoing SmartDoor project (more on that soon at this very &#39;ere blog). Also, I review the beautiful PiDP-11 kit. Available...</description>
+      <pubDate>Sat, 22 Dec 2018 18:34:44 GMT</pubDate>
+      <dc:creator>PJ Evans</dc:creator>
+      <guid>https://mrpjevans.com/magpi-77</guid>
+    </item>
+      
+      
+        
+      
+        
+      
+    <item>
+      
+        <title>MagPi #76</title>
+      
+      <link>https://mrpjevans.com/magpi-76</link>
+      <description>The rather wonderful MagPi issue 76 is out today. In this issue I&#39;m turning up twice. First as part of the SuperGuide with a look at the Raspberry Pi Desktop and how to use it, along with some...</description>
+      <pubDate>Thu, 29 Nov 2018 11:02:15 GMT</pubDate>
+      <dc:creator>PJ Evans</dc:creator>
+      <guid>https://mrpjevans.com/magpi-76</guid>
+    </item>
+      
+      
+        
+      
+        
+      
+    <item>
+      
+        <title>So, we bought a LEAF - Four Years On</title>
+      
+      <link>https://mrpjevans.com/so-we-bought-a-leaf-four-years-on</link>
+      <description>New Toy! New Toy!It has come as a bit of a surprise to me that the most popular post on this ‘ere site has been my original guide to owning an electric car in the UK. Mind you, when I think back to...</description>
+      <pubDate>Tue, 29 May 2018 12:53:00 GMT</pubDate>
+      <dc:creator>PJ Evans</dc:creator>
+      <guid>https://mrpjevans.com/so-we-bought-a-leaf-four-years-on</guid>
+    </item>
+      
+      
+        
+      
+        
+      
+    <item>
+      
+        <title>Do You Want To Build a Strandbeest?</title>
+      
+      <link>https://mrpjevans.com/do-you-want-to-build-a-strandbeest</link>
+      <description>A time-lapse showing the construction of Just Add Sharks‘ Mini Strandbeest kit which I picked up at EMF Camp 2016. It’s a great kit and took about 90 minutes to put together.And here’s the result...</description>
+      <pubDate>Wed, 25 Apr 2018 14:05:00 GMT</pubDate>
+      <dc:creator>PJ Evans</dc:creator>
+      <guid>https://mrpjevans.com/do-you-want-to-build-a-strandbeest</guid>
+    </item>
+      
+      
+        
+      
+        
+      
+    <item>
+      
+        <title>The Great Digital Race (or ‘A 15-second Fib’)</title>
+      
+      <link>https://mrpjevans.com/the-great-digital-race-or-a-15-second-fib</link>
+      <description>Connie 1, WITCH 0You can keep your Winter Olympics with all it’s competitive falling and sliding. The real action was last Saturday at The National Museum of Computing where you could witness the...</description>
+      <pubDate>Tue, 20 Feb 2018 12:03:00 GMT</pubDate>
+      <dc:creator>PJ Evans</dc:creator>
+      <guid>https://mrpjevans.com/the-great-digital-race-or-a-15-second-fib</guid>
+    </item>
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    <item>
+      
+        <title>Raspberry Pi + iPad Screen + iCade = Bartop</title>
+      
+      <link>https://mrpjevans.com/raspberry-pi-icade</link>
+      <description>WAKKA WAKKA WAKKAWay back when, I bought an iCade. This bartop-style arcade machine was actually a very pretty bluetooth controller. Simply slot your first-generation iPad into the ‘screen’ and pair....</description>
+      <pubDate>Tue, 05 Dec 2017 12:25:00 GMT</pubDate>
+      <dc:creator>PJ Evans</dc:creator>
+      <guid>https://mrpjevans.com/raspberry-pi-icade</guid>
+    </item>
+      
+      
+        
+      
+        
+      
+    <item>
+      
+        <title>Re-Capping a ZX Spectrum</title>
+      
+      <link>https://mrpjevans.com/re-capping-a-zx-spectrum</link>
+      <description>ZX Spectrums tend to suffer from two major problems. The earlier keyboard membranes were made from the finest Japanese rice paper and would shatter into a million pieces should a flea with a penchant...</description>
+      <pubDate>Sun, 29 Oct 2017 12:41:00 GMT</pubDate>
+      <dc:creator>PJ Evans</dc:creator>
+      <guid>https://mrpjevans.com/re-capping-a-zx-spectrum</guid>
+    </item>
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    <item>
+      
+        <title>ZX Raspberry Version 2</title>
+      
+      <link>https://mrpjevans.com/zx-raspberry-version-2</link>
+      <description>In which our hero downsizes radicallyA couple of months ago we held the first in the ‘regeneration’ of the Milton Keynes Raspberry Jam. I took along my ZX Raspberry for all to see and wonder over. One...</description>
+      <pubDate>Wed, 27 Sep 2017 13:48:00 GMT</pubDate>
+      <dc:creator>PJ Evans</dc:creator>
+      <guid>https://mrpjevans.com/zx-raspberry-version-2</guid>
+    </item>
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    <item>
+      
+        <title>An Atari 2600 in a Cartridge</title>
+      
+      <link>https://mrpjevans.com/an-atari-2600-in-a-cartridge</link>
+      <description>You know when you’re having that long-overdue clean-out and you find a few things stashed away you’d forgotten about? From when you said “that’ll make a great project one day” then tossed it in your...</description>
+      <pubDate>Sat, 24 Jun 2017 13:54:00 GMT</pubDate>
+      <dc:creator>PJ Evans</dc:creator>
+      <guid>https://mrpjevans.com/an-atari-2600-in-a-cartridge</guid>
+    </item>
+      
+      
+        
+      
+        
+      
+    <item>
+      
+        <title>EMF Camp 2016 IN 3D</title>
+      
+      <link>https://mrpjevans.com/emf-camp-2016-in-3d</link>
+      <description>EMF Camp is a bi-annual gathering of creatives, geeks, makers and anyone with a passion for, well, anything. Over three days in a Guildford field we attended (and gave) talks, learnt new skills in...</description>
+      <pubDate>Fri, 12 Aug 2016 14:10:00 GMT</pubDate>
+      <dc:creator>PJ Evans</dc:creator>
+      <guid>https://mrpjevans.com/emf-camp-2016-in-3d</guid>
+    </item>
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    <item>
+      
+        <title>Building The ZX Raspberry – Part Four</title>
+      
+      <link>https://mrpjevans.com/building_zx_raspberry_part_4</link>
+      <description>In which our hero is unable to leave well aloneA little epilogue to the ZX Raspberry project. I came into possession of a very dead ZX Spectrum+ and, following my own personal rule of ‘it gets fixed...</description>
+      <pubDate>Wed, 17 Feb 2016 13:17:00 GMT</pubDate>
+      <dc:creator>PJ Evans</dc:creator>
+      <guid>https://mrpjevans.com/building_zx_raspberry_part_4</guid>
+    </item>
+      
+      
+        
+      
+        
+      
+    <item>
+      
+        <title>BBC Micro Model B Memory Repair</title>
+      
+      <link>https://mrpjevans.com/bbc-micro-model-b-memory-repair</link>
+      <description>So, what do you do when your BBC Model B looks like this?Oh dear…You throw it in the skip of course!Nah, just kidding, you Google like a mad thing. What you learn is that screen corruption like this...</description>
+      <pubDate>Thu, 14 Jan 2016 13:20:00 GMT</pubDate>
+      <dc:creator>PJ Evans</dc:creator>
+      <guid>https://mrpjevans.com/bbc-micro-model-b-memory-repair</guid>
+    </item>
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    <item>
+      
+        <title>Building The ZX Raspberry – Part Three</title>
+      
+      <link>https://mrpjevans.com/building-the-zx-raspberry-part-three</link>
+      <description>In which our hero triumphs over excessive wiringBack in Part 2, I completed the USB keyboard conversion of an old, abandoned ZX Spectrum. The next, and final, step is to add in a Raspberry PI so that...</description>
+      <pubDate>Sun, 27 Dec 2015 13:37:00 GMT</pubDate>
+      <dc:creator>PJ Evans</dc:creator>
+      <guid>https://mrpjevans.com/building-the-zx-raspberry-part-three</guid>
+    </item>
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    <item>
+      
+        <title>Building The ZX Raspberry – Part Two</title>
+      
+      <link>https://mrpjevans.com/building-the-zx-raspberry-part-two</link>
+      <description>In which our hero enters the (keyboard) matrix…Ok, time to burn stuff. After hatching a plan in Part One, I’m now ready to proceed with my Frankenspeccy. But first, some more planning – what am I...</description>
+      <pubDate>Tue, 15 Dec 2015 13:48:00 GMT</pubDate>
+      <dc:creator>PJ Evans</dc:creator>
+      <guid>https://mrpjevans.com/building-the-zx-raspberry-part-two</guid>
+    </item>
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    <item>
+      
+        <title>Building The ZX Raspberry – Part One</title>
+      
+      <link>https://mrpjevans.com/building-the-zx-raspberry-part-one</link>
+      <description>In which our hero plans and schemesDespite wanting to convert a ZX Spectrum into a USB keyboard for some time, I held off to wait for the unlikely duo of the ZX Spectrum Vega and the Recreated ZX...</description>
+      <pubDate>Tue, 08 Dec 2015 13:55:00 GMT</pubDate>
+      <dc:creator>PJ Evans</dc:creator>
+      <guid>https://mrpjevans.com/building-the-zx-raspberry-part-one</guid>
+    </item>
+      
+      
+        
+      
+        
+      
+    <item>
+      
+        <title>Restoring a VIC-20</title>
+      
+      <link>https://mrpjevans.com/restoring-a-vic-20</link>
+      <description>I purchased this poor thing last week. After some initial mucking about, life was breathed into it once more. I had a a bit of fun getting the keyboard working but now she’s 100% operational and a...</description>
+      <pubDate>Sun, 29 Mar 2015 15:02:00 GMT</pubDate>
+      <dc:creator>PJ Evans</dc:creator>
+      <guid>https://mrpjevans.com/restoring-a-vic-20</guid>
+    </item>
+      
+      
+        
+      
+        
+      
+        
+      
+    <item>
+      
+        <title>The Imitation Game: Fact and Fiction</title>
+      
+      <link>https://mrpjevans.com/the-imitation-game-fact-and-fiction</link>
+      <description>To many of us in the technical community, the story of Alan Turing is well known; a tragedy of a tortured genius who saved a world that may well have killed him in return. With this new film, the...</description>
+      <pubDate>Thu, 20 Nov 2014 14:05:00 GMT</pubDate>
+      <dc:creator>PJ Evans</dc:creator>
+      <guid>https://mrpjevans.com/the-imitation-game-fact-and-fiction</guid>
+    </item>
+      
+      
+        
+      
+        
+      
+    <item>
+      
+        <title>So We Bought a Leaf – Our FAQ on owning an Electric Car in the UK</title>
+      
+      <link>https://mrpjevans.com/electric-cars-faq</link>
+      <description>So, you like the sound of going electric, but how does it all work? When Mrs E and I started considering an ‘EV’ (as the cool kids will insist on calling it) we quickly realised we had no idea how the...</description>
+      <pubDate>Wed, 28 May 2014 15:07:00 GMT</pubDate>
+      <dc:creator>PJ Evans</dc:creator>
+      <guid>https://mrpjevans.com/electric-cars-faq</guid>
+    </item>
+      
+      
+        
+      
+        
+      
+    <item>
+      
+        <title>Composite Modding the Atari 2600</title>
+      
+      <link>https://mrpjevans.com/composite-modding-the-atari-2600</link>
+      <description>Buoyed on by my successful project to add a composite video output to a 1976 Pong game, I decided to move to my next target, the Atari 2600. Now, this little beauty needs no introduction, a classic...</description>
+      <pubDate>Mon, 19 May 2014 15:17:00 GMT</pubDate>
+      <dc:creator>PJ Evans</dc:creator>
+      <guid>https://mrpjevans.com/composite-modding-the-atari-2600</guid>
+    </item>
+      
+      
+        
+      
+        
+      
+    <item>
+      
+        <title>Breathing New (Composite) Life Into a Binatone Pong Console</title>
+      
+      <link>https://mrpjevans.com/binatone-composite-mod</link>
+      <description>Pong! What more could a young child want in 1978? Despite my formative years, I was already hooked on my friend’s magic-filled box of delights he described as a ‘TV Game’ (for ‘console’ was a word of...</description>
+      <pubDate>Tue, 13 May 2014 15:27:00 GMT</pubDate>
+      <dc:creator>PJ Evans</dc:creator>
+      <guid>https://mrpjevans.com/binatone-composite-mod</guid>
+    </item>
+      
+      
+        
+      
+        
+      
+    <item>
+      
+        <title>Binatone Pong</title>
+      
+      <link>https://mrpjevans.com/binatone-pong</link>
+      <description>The first computer game I ever owned was this Binatone ‘TV Master MK IV’ – a simple unit that could play the standard Pong variants with a pair of analogue paddles. Yes, it may be simple, but I had...</description>
+      <pubDate>Mon, 28 Apr 2014 15:33:00 GMT</pubDate>
+      <dc:creator>PJ Evans</dc:creator>
+      <guid>https://mrpjevans.com/binatone-pong</guid>
+    </item>
+      
+      
+        
+      
+        
+      
+    <item>
+      
+        <title>RS232 on the Raspberry Pi (to a Psion 5)</title>
+      
+      <link>https://mrpjevans.com/rs232-on-the-raspberry-pi-to-a-psion-5</link>
+      <description>The Raspberry Pi’s General-Purpose Input/Output (GPIO) connector consists of 26 pins that are a hacker’s delight, allowing for some serious analogue and digital tomfoolery. When drooling over the...</description>
+      <pubDate>Wed, 10 Oct 2012 19:36:00 GMT</pubDate>
+      <dc:creator>PJ Evans</dc:creator>
+      <guid>https://mrpjevans.com/rs232-on-the-raspberry-pi-to-a-psion-5</guid>
+    </item>
+      
+      
+        
+      
+        
+      
+    <item>
+      
+        <title>Papercraft Enigma</title>
+      
+      <link>https://mrpjevans.com/papercraft-enigma</link>
+      <description>This has been doing the rounds on Twitter but I thought I’d show off my own attempt.UK security firm Franklin Heath have put together an Enigma machine made out of paper. This really goes to show that...</description>
+      <pubDate>Mon, 02 Jul 2012 19:25:00 GMT</pubDate>
+      <dc:creator>PJ Evans</dc:creator>
+      <guid>https://mrpjevans.com/papercraft-enigma</guid>
+    </item>
+      
+      
+        
+      
+        
+      
+        
+      
+    <item>
+      
+        <title>Colossus Cinemagram</title>
+      
+      <link>https://mrpjevans.com/colossus-cinemagram</link>
+      <description></description>
+      <pubDate>Mon, 02 Jul 2012 19:24:00 GMT</pubDate>
+      <dc:creator>PJ Evans</dc:creator>
+      <guid>https://mrpjevans.com/colossus-cinemagram</guid>
+    </item>
+      
+      
+        
+      
+        
+      
+    <item>
+      
+        <title>Clear Printable Raspberry Pi Case</title>
+      
+      <link>https://mrpjevans.com/clear-printable-raspberry-pi-case</link>
+      <description>Does your Raspberry Pi need a case? Mine too. I’ve looked at a few options and intend to make a selection. However, my first attempt may well be my favourite. Behold the ‘Raspberry Pi Fold-Up Case’...</description>
+      <pubDate>Wed, 20 Jun 2012 19:21:00 GMT</pubDate>
+      <dc:creator>PJ Evans</dc:creator>
+      <guid>https://mrpjevans.com/clear-printable-raspberry-pi-case</guid>
+    </item>
+      
+      
+        
+      
+        
+      
+    <item>
+      
+        <title>Why Ten Pairs?</title>
+      
+      <link>https://mrpjevans.com/why-ten-pairs</link>
+      <description>As you may know, the German military made a significant addition to the original Enigma design by adding the plugboard, or steckerbrett. The board has twenty-six sockets, one for every letter in the...</description>
+      <pubDate>Mon, 18 Jun 2012 19:17:00 GMT</pubDate>
+      <dc:creator>PJ Evans</dc:creator>
+      <guid>https://mrpjevans.com/why-ten-pairs</guid>
     </item>
   </channel>
 </rss>
